@@ -101,7 +101,7 @@ Here is a sketch of what I thought the device may look like:
 
 I decided to find a concave like globe object that had enough transparency to emanate light successfully. I wanted to keep the design simple, I think it is important it does not look like something out of place but also can be a design asthetic choice of lighting when styling a room.
 
-<img src="luminar1.jpg" title="dsdsd" alt="drawing" width="200"/>
+<img src="luminar1.jpg" alt="drawing" width="200"/>
 <img src="luminar2.jpg" alt="drawing" width="200"/>
 <img src="luminar3.jpg" alt="drawing" width="200"/>
 <img src="luminar4.jpg" alt="drawing" width="200"/>
