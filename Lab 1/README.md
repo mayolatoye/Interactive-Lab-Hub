@@ -110,10 +110,12 @@ I decided to find a concave like globe object that had enough transparency to em
 
 **Video of Prototype**
 The prototype device can be seen in action here: 
+
+*Lifting Depressive Mood*
 [Luminar Full Costume Depression Lift](https://youtu.be/SJX0Seco65s)
 
-
-[Luminar Full Costume Unrest Lift]({SetupStilShot.jpg})]({Luminar Full Costume Unrest Lift} "Link Title")
+*Lifting Unrest Mood*
+[Luminar Full Costume Unrest Lift](https://youtu.be/SITc7cP5qVQ)
 
 **Acknowledgements**
 Thanks to my family for helping me stage the interaction and also the mood lighting research by Eindhoven and Delft University of Technology in The Netherlands [here](Designconsiderationsforadaptivelightingtoimproveseniorsmood.pdf).
