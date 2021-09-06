@@ -80,10 +80,10 @@ An initial setup to understand the lighting states desired for negative mood lif
 
 In the follow up I was able to model the two possibilities as two seperate interactions. That is, the participant arrives as a depressed state and requires activiating red-amber like lighting, followed by a state of unrest that requires a calming blue-cyan like lighting. These are modelled with objects of similar colours as well as voice recognition by story cards. This interaction can be viewed here:
 
-[![Followup Depression Lift video Luminar]](https://youtu.be/1LVDZwVrVaw)
+[Followup Depression Lift video Luminar](https://youtu.be/1LVDZwVrVaw)
 
 
-[![Followup Unrest Lift video Luminar]](https://youtu.be/u9evpeFfat0)
+[Followup Unrest Lift video Luminar](https://youtu.be/u9evpeFfat0)
 
 ## Part E. Costume the device
 
