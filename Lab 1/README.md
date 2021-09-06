@@ -73,7 +73,7 @@ It would be good to solve for the iPhone contraints however they did not prove t
 
 An initial setup to understand the lighting states desired for negative mood lifting can be found here:
 
-[![Setup video Luminar]({SetupStilShot.jpg})](https://youtu.be/GQ99e2AjanU)
+[Setup video Luminar](https://youtu.be/GQ99e2AjanU)
 
 
 **Follow-up Test Run**
@@ -101,22 +101,19 @@ Here is a sketch of what I thought the device may look like:
 
 I decided to find a concave like globe device that had enough transparency to emanate light successfully. I wanted to keep the design simple, I think it is important it doesnot look like something out of place but also can be a design asthetic choice of lighting when styling a room.
 
-![Luminar Final Design1](luminar1.jpg)
-![Luminar Final Design2](luminar2.jpg)
-![Luminar Final Design3](luminar3.jpg)
-![Luminar Final Design4](luminar4.jpg)
-
-
-
+<img src="luminar1.jpg" alt="drawing" width="200"/>
+<img src="luminar2.jpg" alt="drawing" width="200"/>
+<img src="luminar3.jpg" alt="drawing" width="200"/>
+<img src="luminar4.jpg" alt="drawing" width="200"/>
 
 ## Part F. Record
 
 **Video of Prototype**
 The prototype device can be seen in action here: 
-[![Luminar Full Costume Depression Lift]](https://youtu.be/SJX0Seco65s)
+[Luminar Full Costume Depression Lift](https://youtu.be/SJX0Seco65s)
 
 
-[![Luminar Full Costume Unrest Lift]({SetupStilShot.jpg})]({Luminar Full Costume Unrest Lift} "Link Title")
+[Luminar Full Costume Unrest Lift]({SetupStilShot.jpg})]({Luminar Full Costume Unrest Lift} "Link Title")
 
 **Acknowledgements**
 Thanks to my family for helping me stage the interaction and also the mood lighting research by Eindhoven and Delft University of Technology in The Netherlands [here](Designconsiderationsforadaptivelightingtoimproveseniorsmood.pdf).
