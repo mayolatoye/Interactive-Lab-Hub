@@ -69,7 +69,7 @@ To simplify this, we will assume a scenario such as an elderly adult, living alo
 
 **Storyboard**
 
-Our story board models two scenarios. The first is a senior citizen waking up to a depressed mood. The second is a senior citizen whilst watching telivision suddenly feels unrest. In both scenariors, Luminar effectively works to bring them back to a positive neutral state and adjsuts the lighting accordingly when this state is reached.
+My story board models two scenarios. The first is a senior citizen waking up to a depressed mood. The second is a senior citizen whilst watching telivision suddenly feels unrest. In both scenariors, Luminar effectively works to bring them back to a positive neutral state and adjsuts the lighting accordingly when this state is reached.
 
 ![Luminar Storyboard](StoryboardLuminar.jpg)
 
@@ -103,21 +103,21 @@ It would be good to solve for the iPhone contraints however they did not prove t
 
 An initial setup to understand the lighting states desired for negative mood lifting can be found here:
 
-[![Setup video Luminar]({SetupStilShot.jpg})]({IMG_3566.MOV} "Link Title")
+[![Setup video Luminar]({SetupStilShot.jpg})](https://youtu.be/GQ99e2AjanU)
 
 <video width="320" height="240" controls>
-  <source src="IMG_3566.MOV" type="video/mp4">
+  <source src="IMG_3566.MOV" type="video/quicktime>
 </video>
-
 
 
 **Follow-up Test Run**
 
 In the follow up I was able to model the two possibilities as two seperate interactions. That is, the participant arrives as a depressed state and requires activiating red-amber like lighting, followed by a state of unrest that requires a calming blue-cyan like lighting. These are modelled with objects of similar colours as well as voice recognition by story cards. This interaction can be viewed here:
 
-[![Followup Depression Lift video Luminar]({FollowupShot1.jpg})]({IMG_3570.MOV} "Link Title")
+[![Followup Depression Lift video Luminar]](https://youtu.be/1LVDZwVrVaw)
 
-[![Followup Unrest Lift video Luminar]({FollowupShot1.jpg})]({IMG_3571.MOV} "Link Title")
+
+[![Followup Unrest Lift video Luminar]](https://youtu.be/u9evpeFfat0)
 
 ## Part E. Costume the device
 
@@ -147,8 +147,10 @@ I decided to find a concave like globe device that had enough transparency to em
 
 **Video of Prototype**
 The prototype device can be seen in action here: 
-[![Luminar Full Costume Depression Lift]({SetupStilShot.jpg})]({IMG_3574.MOV} "Link Title")
-[![Luminar Full Costume Unrest Lift]({SetupStilShot.jpg})]({IMG_3572.MOV} "Link Title")
+[![Luminar Full Costume Depression Lift]](https://youtu.be/SJX0Seco65s)
+
+
+[![Luminar Full Costume Unrest Lift]({SetupStilShot.jpg})]({Luminar Full Costume Unrest Lift} "Link Title")
 
 **Acknowledgements**
 Thanks to my family for helping me stage the interaction and also the mood lighting research by Eindhoven and Delft University of Technology in The Netherlands [here](Designconsiderationsforadaptivelightingtoimproveseniorsmood.pdf).
