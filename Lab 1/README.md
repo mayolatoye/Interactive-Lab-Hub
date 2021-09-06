@@ -56,25 +56,21 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
+\*\***Background**\*\*
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+The home is a major hub of daily activity for individuals and families across various age groups, from children to elderly adults. This became increasingly important during the pandemic of 2020 as we all shifted a significant part of our “outside the home” activities from schooling to office work to the home, with an array of makeshift solutions to adjust.  During this pandemic, mental health also became increasingly important from feelings of isolation to specific weaknesses in our current social models in how we check up on the elderly who became even more vulnerable during this time.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+With all of this in mind, the psychological health and wellbeing of people became even more pressing and saw responses like significant interest in more solutions or apps that cater to this. These apps often require subscriptions to support the regular spoken content they provide but what if we could find a simpler more elementary solution within the home? What about using light as a healing vehicle within the home to adjust the mood of the individual to a healthier state?
 
-_Activity:_ What is happening between the actors?
+\*\***Sceanrio**\*\*
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+To simplify this, we will assume a scenario such as an elderly adult, living alone during the pandemic. Our interactive device “**Luminar**” will help adjust the mood of a person back to a positive state to boost their mental health and wellbeing. We will use one input channel to detect current mood (voice) and use light therapy to respond back with the goal of altering their current mood state back to a positive or neutral outcome. We will focus on correcting two potential moods often felt by elderly adults within the negative spectrum. The first being depression (low arousal) which can be corrected using activating light (orange and red tonal colours).  The second being unrest (high arousal) which can be corrected with a combination of blue light and cyan accented tones. We also acknowledge a neutral positive state to be of a general warm yellow amber lighting. You can read more about the research into colour therapy for mood correction within this study done in conjunction with Philips here. Please note I will contunie to spell in British style :-)
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+\*\***Storyboard**\*\*
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
-
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-
-\*\***Include a picture of your storyboard here**\*\*
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 
 \*\***Summarize feedback you got here.**\*\*
 
