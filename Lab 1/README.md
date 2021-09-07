@@ -53,7 +53,7 @@ Thought it was a great idea, wondered what lights work for when the elder is in 
 
 ## Part B. Act out the Interaction
 
-What is intersting about the idea is you actually need it to illuminate the room to get the desired effect fully. I tried to turn off other lighting in the room to make it more obvious a particular colour was being emanated from the phone in order to make the science of mood lighting work better. This enhanced the experience and effect.  So perhaps the light needs to not only be powerful enough and well distributed to illuminate the room fully, but also take a central position within it.
+What is interesting about the idea is you actually need it to illuminate the room to get the desired effect fully. I tried to turn off other lighting in the room to make it more obvious a particular colour was being emanated from the phone in order to make the science of mood lighting work better. This enhanced the experience and effect.  So perhaps the light needs to not only be powerful enough and well distributed to illuminate the room fully, but also take a central position within it.
 
 
 ## Part C. Prototype the device
