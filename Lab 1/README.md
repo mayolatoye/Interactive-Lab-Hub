@@ -39,7 +39,7 @@ To simplify this, we will assume a scenario such as an elderly adult, living alo
 
 **Storyboard**
 
-My story board models two scenarios. The first is a senior citizen waking up to a depressed mood. The second is a senior citizen whilst watching telivision suddenly feels unrest. In both scenariors, Luminar effectively works to bring them back to a positive neutral state and adjsuts the lighting accordingly when this state is reached.
+My story board models two scenarios. The first is a senior citizen waking up to a depressed mood. The second is a senior citizen whilst watching television suddenly feels unrest. In both scenariors, Luminar effectively works to bring them back to a positive neutral state and adjsuts the lighting accordingly when this state is reached.
 
 ![Luminar Storyboard](StoryboardLuminar.jpg)
 
@@ -47,22 +47,22 @@ My story board models two scenarios. The first is a senior citizen waking up to 
 
 **Feedback from Presentation**
 
-Thought it was a great idea, wondered what lights work for when the elder is in a neutral mood if there was anyway to enhance that further. This will require further research, as one would have to discern the type of neutral mood and develop a model as to how to enhace it further. Also pointed out that this did not need to be limited to elders as children could also experience feelings of depression and unrest but perhaps exhibit it more easily in facial expressions as well as sounds like "argh" rather than vocabulary. Valid points as my research did demostrate a combination of facial recognition (would require computer vision work) and voice recognition is typically used to discern current mood state in paticipant. The scope of this however can be considered for a longerterm project.
+Thought it was a great idea, wondered what lights work for when the elder is in a neutral mood if there was anyway to enhance that further. This will require further research, as one would have to discern the type of neutral mood and develop a model as to how to enhace it further. Also pointed out that this did not need to be limited to elders as children could also experience feelings of depression and unrest but perhaps exhibit it more easily in facial expressions as well as sounds like "argh" rather than vocabulary. Valid points as my research did demostrate a combination of facial recognition (would require computer vision work) and voice recognition is typically used to discern current mood state in participant. The scope of this however can be considered for a longerterm project.
 
 
 
 ## Part B. Act out the Interaction
 
-What is intersting about the idea is you actually need it to illuminate the room to get the desired effect fully. I tried to turn off other lighting in the room to make it more obvious a particular colour was being emanated from the phone in order to make the science of mood lighting work better. This enhanced the expereince and effect.  So perhaps the light needs to not only be powerful enough and well distributed to illuminate the room fully, but also take a central position within it.
+What is intersting about the idea is you actually need it to illuminate the room to get the desired effect fully. I tried to turn off other lighting in the room to make it more obvious a particular colour was being emanated from the phone in order to make the science of mood lighting work better. This enhanced the experience and effect.  So perhaps the light needs to not only be powerful enough and well distributed to illuminate the room fully, but also take a central position within it.
 
 
 ## Part C. Prototype the device
 
 **Feedback on Tinkerbelle**
 
-For my interactive device, it is really important to be able to get a tonal colour effect. I appreciated the gradient  colour effect I could achieve from the colour palette as it worked well with the science of mood lighting to affect state. I also see value in the audio as light and sound are simple effective ways of altering mood. This could be a very useful way to extend the usefulness of the device. 
+For my interactive device, it is really important to be able to get a tonal colour effect. I appreciated the gradient  colour effect I could achieve from the colour palette as it worked well with the science of mood lighting to affect state given it is combinatory. I also see value in the audio as light and sound are simple effective ways of altering mood. This could be a very useful way to extend the usefulness of the device. 
 
-It would be good to solve for the iPhone contraints however they did not prove to be a significant issue in conducting the experiment i.e. cannot go to full screen on Tinkerbell iPhone side.
+It would be good to solve for the iPhone contraints however this did not prove to be a significant issue in conducting the experiment i.e. cannot go to full screen on Tinkerbell iPhone side.
 
 
 
@@ -78,7 +78,7 @@ An initial setup to understand the lighting states desired for negative mood lif
 
 **Follow-up Test Run**
 
-In the follow up I was able to model the two possibilities as two seperate interactions. That is, the participant arrives as a depressed state and requires activiating red-amber like lighting, followed by a state of unrest that requires a calming blue-cyan like lighting. These are modelled with objects of similar colours as well as voice recognition by story cards. This interaction can be viewed here:
+In the follow up I was able to model the two possibilities as two seperate interactions. That is, the participant arrives at a depressed state and requires activiating red-amber like lighting, followed by a state of unrest that requires a calming blue-cyan like lighting. These are modelled with objects of similar colours as well as voice recognition by story cards. This interaction can be viewed here:
 
 [Followup Depression Lift video Luminar](https://youtu.be/1LVDZwVrVaw)
 
@@ -91,9 +91,9 @@ One of my core considerations in designing the device is it needed to be able to
 
 It also needs to be transparent/translucent so the light can flow through well enough to give the desired effect.
 
-Another angle I thought about explroing was, because the goal of the device is to return the participant to a stable positive state was to put a smiley face on it. I decided against this design because I thoguh it would be limiting its use, I also thought it may come across "scary looking" to always permanently be smiling if the particiapnt was in a foul mood. It was more important that the "light do the talking" and comunicate the mood based on participant state. 
+Another angle I thought about exploring, because the goal of the device is to return the participant to a stable positive state was to put a smiley face on it. I decided against this design because I thought it would be limiting its use, I also thought it may come across "scary looking" to always permanently be smiling if the particiapnt was in a foul mood - some user feedback collected mostly agreed with this sentiment. It was more important that the "light do the talking" and communicate the mood based on participant state. 
 
-Finally, I considered the idea it may be useful for touch activation to turn this on and off. This could be good from a mobility perspective for night time but it has to not turn off the entire system, should I later implement this function. Extending this further, voice activation may be even more optimal.
+Finally, I considered the idea it may be useful for touch activation to turn this on and off. This could be good from a mobility perspective for night time for the bedside of an elder but it has to not turn off the entire system, should I later implement this function. Extending this further, voice activation may be even more optimal.
 
 Here is a sketch of what I thought the device may look like:
 
