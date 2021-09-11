@@ -131,19 +131,19 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Feedback Summary**
 
-I got general feedback like it was a good concept and very well documented. Two key things I took away.
+I got general feedback such as - it was a good concept and very well documented. Two key things I took away.
 
-First, feedback suggested accompanyign with a cound to also lift the mood. This formed part of my further research here. It also works well with using elemntary concepts like light and sound (cheaper than subscribed spoken content) in terms of my product goals and feaure scope.  I exploed the https://freesound.org/ site and identified two accompanyign souds that could work.
+First, feedback suggested accompanying with a sound to also lift the mood. This formed part of my further research [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6542982/). It also works well with using elemntary concepts like light and sound (cheaper than subscribed spoken content) in terms of my product goals and feature scope.  I explored the Tinkerbell source site for sounds: https://freesound.org/  and identified two accompanying sounds that could work.
 
 1. Acitivating Sound: [Bright and Jocvial Melody](https://freesound.org/people/AlmightyPsyche/sounds/561024/) for low arrousal/depression lift.
 
-2. Calming Sound: [BCalming Background Music Orchesrta](hhttps://freesound.org/people/Migfus20/sounds/560453/) for high arrousal/unrest lift.
+2. Calming Sound: [Calming Background Music Orchesrta](https://freesound.org/people/Migfus20/sounds/560453/) for high arrousal/unrest lift.
 
-The second type of feedback was very insightful but will requires alot more extensive research. Nevertheless I will document it here. They posed a question around what happens when multiple participants are in the room and to clarify how the device obtains input. The primary mode of input can take two forms. Vision and sound. Computer vision can be used for the first aspect but I have focussed on staging voice interaction instead. The participant can make sounds like grunts or even be asked a question by the device and their voice pattern studied to pick up on the degree to which their mood is negative and requires activation or calming. 
+The second type of feedback was very insightful but will require alot more extensive research. Nevertheless I will document it here. They posed a question around what happens when multiple participants are in the room and to clarify how the device obtains input. The primary mode of input can take two forms. Vision and sound. Computer vision can be used for the first aspect but I have focussed on staging voice interaction instead. The participant can make sounds like grunts or even be asked a question by the device and their voice pattern studied to pick up on the degree to which their mood is negative and requires activation or calming. 
 
-In a scenario of multiple users in a room, my theory or rather approach would be to take in all voices within the room, identify each persons individual note. After which, the device could examine which require lifting and then make an optimal blend of light and sounds based on an optimization to lift the overall room mood.
+In a scenario of multiple users in a room, my theory or rather approach would be to take in all voices within the room, identify each persons individual note. After which, the device could examine which require lifting and then make an optimal blend of light and sounds based on an optimization algorithm to lift the overall room mood.
 
-For the purposes of this lab, I will simply focussing on adding the sound element.
+For the purposes of this lab's scope, I will simply be focussing on adding the sound element.
 
 ## Make it your own
 
@@ -248,7 +248,7 @@ The prototype device can be seen in action here:
 
 Finally, I stage a nightime interaction and also play around with the gradient colour board to reflect a feedback exchange process of mood light altering with the participant i.e it is trying to mood correct and find the optimum balance for the individual.
 
-*Full Mood Video Nightime *
+*Full Mood Video Nightime*
 [Luminar with Gradient Light Approach At Night](https://youtu.be/nGmyzETeqKg)
 
 **Acknowledgements**
