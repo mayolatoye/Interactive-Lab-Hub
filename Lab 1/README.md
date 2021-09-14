@@ -171,6 +171,7 @@ My story board models two scenarios. The first is a senior citizen waking up to 
 
 ![Luminar Storyboard](StoryboardLuminar_v2.jpg)
 
+**_Sketches updated to incorporate feedback around sound_**
 
 
 **Feedback from Presentation**
