@@ -169,7 +169,7 @@ To simplify this, we will assume a scenario such as an elderly adult, living alo
 
 My story board models two scenarios. The first is a senior citizen waking up to a depressed mood. The second is a senior citizen whilst watching television suddenly feels unrest. In both scenariors, Luminar effectively works to bring them back to a positive neutral state and adjusts the lighting and sound accordingly when this state is reached.
 
-![Luminar Storyboard](StoryboardLuminar.jpg)
+![Luminar Storyboard](StoryboardLuminar_v2.jpg)
 
 
 
@@ -223,9 +223,13 @@ Another angle I thought about exploring, because the goal of the device is to re
 
 Finally, I considered the idea it may be useful for touch activation to turn this on and off. This could be good from a mobility perspective for night time for the bedside of an elder but it has to not turn off the entire system, should I later implement this function. Extending this further, voice activation may be even more optimal.
 
-Here is a sketch of what I thought the device may look like:
+Here is a sketch of what I thought the device may look like intially:
 
 ![Luminar Design Options](LuminarDesignOptions.jpg)
+
+Here is the updated final sketch based on incorporating feedback:
+
+![Luminar Design Final Sketch](luminarfinalsketch.jpg)
 
 I decided to find a concave like globe object that had enough transparency to emanate light successfully. I wanted to keep the design simple, I think it is important it does not look like something out of place but also can be a design asthetic choice of lighting when styling a room.
 
