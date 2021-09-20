@@ -132,34 +132,37 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 ## Part E.
 ### Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+**Time Measurement**
 
 I have created time based on tasks of the day. Time evolves on this itinerary from waking up, exercising, having coffee to lunch and meeting friends etc
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+**Device Interaction**
 
 The program is made interactive so that everytime the user clicks the button to notify a task is completed, time lapses before the next activity prompt is shown as a visual emoticon to the user. Similarly the user provides feedback again indicating completion through the interaction of the button and the loop continues till the end of the day's activities have been completed indicated by a "bye" hand emoticon.
 
 **A copy of my code is in my Lab 2 Github repo including additional font files I downloaded with emoticons for Raspberry Pi.**
 
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+**Take a video of your PiClock.**
+
+You can watch a quick demo of the interactive Pi clock [here](https://youtu.be/BRR7762hU10)
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Here are some additional scenarios for interactions I could explore.
+
+Scenario 1 is exploring adding sound to these task based time refrence points that compliment. Whilst Scenario 2 explores interaction by way of showing the user a visual, expecting feedback through the button ineraction and then deciding what branch of time to follow as a consequence of the user feedback.
+
+![Scenario 1](PiClockScenario1.jpg)
+
+![Scenario 2](PiClockScenario2.jpg)
+
 
 
 # Prep for Part 2
