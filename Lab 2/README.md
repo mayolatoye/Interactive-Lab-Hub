@@ -157,7 +157,7 @@ You can watch a quick demo of the interactive Pi clock [here](https://youtu.be/B
 
 Here are some additional scenarios for interactions I could explore.
 
-Scenario 1 is exploring adding sound to these task based time refrence points that compliment. Whilst Scenario 2 explores interaction by way of showing the user a visual, expecting feedback through the button ineraction and then deciding what branch of time to follow as a consequence of the user feedback.
+Scenario 1 is exploring adding sound to these task based time reference points that compliment. Whilst Scenario 2 explores interaction by way of showing the user a visual, expecting feedback through the button ineraction and then deciding what branch of time to follow as a consequence of the user feedback.
 
 ![Scenario 1](PiClockScenario1.jpg)
 
