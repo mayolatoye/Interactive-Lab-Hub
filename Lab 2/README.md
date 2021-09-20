@@ -134,9 +134,11 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
+I have created time based on tasks of the day. Time evolves on this itinerary from waking up, exercising, having coffee to lunch and meeting friends etc
+
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
+The program is made interactive so that everytime the user clicks the button to notify a task is completed, time lapses before the next activity prompt is shown as a visual emoticon to the user. Similarly the user provides feedback again indicating completion through the interaction of the button and the loop continues till the end of the day's activities have been completed indicated by a "bye" hand emoticon.
 
 **A copy of my code is in my Lab 2 Github repo including additional font files I downloaded with emoticons for Raspberry Pi.**
 
