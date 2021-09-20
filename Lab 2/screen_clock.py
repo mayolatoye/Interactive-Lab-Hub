@@ -54,18 +54,67 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
-
+emojiFont = ImageFont.truetype("NotoColorEmoji.ttf",size=109)
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+
+
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonA.switch_to_input()
+
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonB.switch_to_input()
+
+# EMOJI fonts https://www.raspberrypi.org/forums/viewtopic.php?t=253484
+
+counter = 0 
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    currentTime = F'{time.strftime("%m/%d/%Y %H:%M:%S")}'
+    if not buttonA.value :
+        counter = counter + 1 
+
+
+    if not buttonB.value :
+        counter = 0 
+
+    if counter < 2:
+        symbol ="🔆" # start your day
+    elif counter < 4: 
+        symbol = "🏋🏾‍♀️" # excercise time
+    elif counter < 6: 
+        symbol = "☕️" # coffee time
+    elif counter < 8: 
+        symbol = "👩‍💻" # work time
+    elif counter < 10: 
+        symbol = "🥗" # lunch time
+    elif counter < 12: 
+        symbol = "🚗🛍" # get groceries
+    elif counter < 14: 
+        symbol = "🍻" # socialize time
+    elif counter < 16: 
+        symbol = "🍕" # dinner time
+    elif counter < 18: 
+        symbol = "🛀🏼" # washtime 
+    elif counter < 20: 
+        symbol = "🌜" # get ready for bed time
+    else:
+        symbol ="👋"  # good night!  
+
+  
+    y = top
+    draw.text((x, y),symbol, font=emojiFont, fill="#FFFFFF")
+    draw.text((x, y), currentTime, font=font, fill="#FFFFFF")
+    y += font.getsize(currentTime)[1]
+    draw.text((x, y), F"x {counter}", font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
+
     time.sleep(1)
