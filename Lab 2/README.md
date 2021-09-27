@@ -181,4 +181,15 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+# Final Pi Clock
+
+The main feedback I had from lab was it could be clearer where the partcipant was in terms of progress durring the time period. I got a good hint from [Xuanyu Fang](https://github.com/xuanyufang/Interactive-Lab-Hub) to add a progress bar/arrow to achieve this. I coupled this with the sound modification to make a "ding" sound as the progress bar updates were being made.
+
+More generally I was asked to set the scene so here goes:
+
+**Scenario**
+
+The participant lives a very busy schedule. She wants to run her day as such that she gets all the necessary activities done successfully. These activities conincide with various intervals of time, for example you would typically have coffee towards the start of the day and a bath towards the end.  The addition of sound means that if her visual channels are tempoarily busy - lets say she is driving, her audio channels can still be utilised to alert her to the notification it is time in the day to move on to the next activity.
+
+Watch the final video [here](https://youtu.be/cgxmo8Qr5S0)
 
