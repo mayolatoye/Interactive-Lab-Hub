@@ -1,5 +1,51 @@
 # Interactive Prototyping: The Clock of Pi
 
+<<<<<<< HEAD
+=======
+Does it feel like time is moving strangely during this semester?
+
+For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
+
+It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
+
+**Please indicate anyone you collaborated with on this Lab here.**
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+## Prep
+
+[Lab prep](prep.md) is extra long this week! Make sure you read it over in time to prepare for lab on Thursday.
+
+### Get your kit
+If you are remote but in the US, let the teaching team know you need the parts mailed.
+
+
+If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+
+
+### Set up your Lab 2
+
+1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
+  
+  If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
+
+  ```
+  Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
+  Interactive-Lab-Hub $ git pull upstream Fall2021
+  ```
+  
+  The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
+  
+  ```
+  Interactive-Lab-Hub $ git add .
+  Interactive-Lab-Hub $ git commit -m "message"
+  Interactive-Lab-Hub $ git push
+  ```
+  Your local and remote should now be up to date with the most recent files.
+
+2. Go to the [lab prep page](prep.md) to inventory your parts and set up your Pi before the lab session on Thursday.
+
+
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 ## Overview
 For this assignment, you are going to 
 
@@ -38,6 +84,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
+
 
 ## Part B. 
 ### Try out the Command Line Clock
@@ -129,6 +176,7 @@ Option 2. Another way for you to edit scripts is to use VNC on your laptop to re
 Now you should be able to edit python scripts with Thonny on your Pi.
 
 
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -137,7 +185,12 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 I have created time based on tasks of the day. Time evolves on this itinerary from waking up, exercising, having coffee to lunch and meeting friends etc
 
 
+<<<<<<< HEAD
 **Device Interaction**
+=======
+
+\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 
 The program is made interactive so that everytime the user clicks the button to notify a task is completed, time lapses before the next activity prompt is shown as a visual emoticon to the user. Similarly the user provides feedback again indicating completion through the interaction of the button and the loop continues till the end of the day's activities have been completed indicated by a "bye" hand emoticon.
 
@@ -167,7 +220,8 @@ Scenario 1 is exploring adding sound to these task based time reference points t
 
 # Prep for Part 2
 
-1. Pick up remaining parts for kit.
+1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
+  
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
