@@ -101,17 +101,37 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+**Post your storyboard and diagram here.**
+[![Verplank diagram for baby translation device](Babyspeakertranslationdevice.jpg)](Babyspeakertranslationdevice.jpg)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+Here are post-it notes of what I imagine the dialogue to be like. The pink notes indicate what the device is able to say whilst the green notes signify what types of sounds the baby can make.
+
+[![Role play notes](babydevice.jpg)](babydevice.jpg)
+
+**Please describe and document your process.**
+
+It was a little dificult to actually script thsi out because part of the problem is the crying noise of the baby is undifferentiated or with litle variation and this is what makes it difficult for the average eprson to figure out whats going on. 
+
+I think whilst voice and signals in teh voice (such as stress) can help, perhaps I need to expalnd the input modalities and account for thing slike schedule in te day to "figue out" what could be wrong like an expereinced nurse or mother would do.
+
+In the end, I created a range of possible output notifications that the device can make informing the parent of what the bay is tryign to say as well as a few that described what the device could do to help.
+
+
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+[Video of role play interaction](https://youtu.be/B7cJBg-OGSU)
+
+**Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**
+
+Yes the interaction was different than I imagined it. Without giving the participant clues of what was happening or could happen but just that they were to act like a baby and this was the limited vocabulary they could work with.
+
+On one hand, I am not sure how to completely act this out without giving a little more guidiance because replicating child like behaviour especially with few clues on what is happening is tricky.
+
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
