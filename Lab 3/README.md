@@ -223,6 +223,8 @@ Enjoy a short click from "The Baby Boss" movie for my inspiration [here](https:/
 
 *Controller - Commandline*
 
+I did not utilize the Wizard of Oz controller as it appeared optional, instead I demostrate the commandline and device prototype in costume.
+
 [![Controller for jibber chatter device](JibberChatterLogo.png)](https://youtu.be/ZhLr7nipZqM)
 
 ***
