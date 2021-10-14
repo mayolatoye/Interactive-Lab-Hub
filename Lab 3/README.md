@@ -234,7 +234,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 **Test for "Dodo" Translation and Motion Sensor**
 
-[![Dodo Translation](JibberChatterLogo.png)](https://youtu.be/HPA3wHeoo7g)
+[![Dodo Translation](JibberChatterLogo.png)](https://youtu.be/Xu3lJLm1X8M)
 
 
 **Test for "Mama" Translation and Motion Sensor**
