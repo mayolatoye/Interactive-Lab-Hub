@@ -1,0 +1,6 @@
+--2021-10-11 21:05:53--  https://www.soundsnap.com/streamers/play2.php?t=l
+Resolving www.soundsnap.com (www.soundsnap.com)... 67.20.63.55
+Connecting to www.soundsnap.com (www.soundsnap.com)|67.20.63.55|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden [1]
+2021-10-11 21:05:53 ERROR 403: Forbidden [1].
+
