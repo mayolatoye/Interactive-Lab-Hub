@@ -221,9 +221,13 @@ Enjoy a short click from "The Baby Boss" movie for my inspiration [here](https:/
 
 [![External for jibber chatter visual device](closeup_wizard_jibber3.jpg)](closeup_wizard_jibber3.jpg)
 
-*Controller*
+*Controller - Commandline*
 
 [![Controller for jibber chatter device](JibberChatterLogo.png)](https://youtu.be/ZhLr7nipZqM)
+
+***
+
+*Controller - Wizard Device Dry Run*
 
 [![Wizarded Device for jibber chatter device](JibberChatterLogo.png)](https://youtu.be/iETj2_p8BSY)
 
