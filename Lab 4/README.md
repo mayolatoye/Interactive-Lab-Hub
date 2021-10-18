@@ -181,6 +181,14 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 4. Vending machine - Order products based on specific colur entered by user through selection on display sensor. The machine then converts to the RGB code reuest and using a sensor placed on a mobile pad finds the first product that meets the color seelction. e.g. red lolipop
 5. Proximity sensor - If it is placed near the entrace of the pen, then whenever the cat passes it, you can be notified how close the cat is to various rooms within the home.
 
+<img src="sketch1.jpg" alt="drawing" width="200"/>
+<img src="sketch2.jpg" alt="drawing" width="200"/>
+<img src="sketch3.jpg" alt="drawing" width="200"/>
+<img src="sketch4.jpg" alt="drawing" width="200"/>
+<img src="sketch5.jpg" alt="drawing" width="200"/>
+
+
+
 **What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?**
 
 The size of the object is important, like how large is the items that holds it elative to size of sensor? Also the material has to be able to hold the sensor inan embeded way that still allows for interaction to detect objects. The cat example may require multiple sensors so you can tell how far he is relative to various distances not just one. With the magnifying glass example, if the item is made from glass will it make sense given one will equire a sensor on the outside of the tool as well as a display on the other side for feedback?
@@ -241,6 +249,8 @@ Think about how you want to present the information about what your sensor is se
 4. Photoframe, hold up items to check and interact with buttons at the bottom
 5. Bowl with sensors embeded and display panel at base, can also be programmed to produce other metrics or integrated with dish ideas per weight and size of avocadoes or bananas
 
+![izit design options](izitdisplaysketch.jpg)
+
 **What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 
 Will it be convinent fo rth user to always put on glasses to check the fruit ripeness and is that dislay for teh conet of theri interaction (probably in a kitchen?) actually apporporiate. 
@@ -264,6 +274,17 @@ I used cardboard boxes, customized the sizes down and cut out panels for the dis
 I held the sensor and display down through cellotape within the box and then inserted the pi and let teh cables flow out through teh circular tube from the core of a kitchen towel.
 
 I wraped it all up in white leftover paper and added the logo to the front.
+
+<img src="prototype1.jpg" alt="drawing" width="200"/>
+<img src="prototype2.jpg" alt="drawing" width="200"/>
+<img src="prototype3.jpg" alt="drawing" width="200"/><img src="prototype4.jpg" alt="drawing" width="200"/>
+
+**Final Paper Prototype**
+
+<img src="izit_display.jpg" alt="drawing" width="200"/>
+<img src="izit_sensor.jpg" alt="drawing" width="200"/>
+<img src="izit_fullview.jpg" alt="drawing" width="200"/>
+
 
 LAB PART 2
 
