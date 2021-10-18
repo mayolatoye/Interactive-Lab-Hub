@@ -284,6 +284,7 @@ I wraped it all up in white leftover paper and added the logo to the front.
 <img src="izit_display.jpg" alt="drawing" width="200"/>
 <img src="izit_sensor.jpg" alt="drawing" width="200"/>
 <img src="izit_fullview.jpg" alt="drawing" width="200"/>
+<img src="izit_used.jpg" alt="drawing" width="200"/>
 
 
 LAB PART 2
