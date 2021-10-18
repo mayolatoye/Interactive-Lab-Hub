@@ -173,12 +173,27 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+**Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+1. People counter - adding a senor device to the door to check how many people have entered the room whenever there is a break in proximity within the door frame
+2. Music swipper - switch to the previous on next song with just one swipe in the air "left or right"
+3. Food ripener check - Food like avocado are very popoular but sometimes difficult to tell if its ripe enough to eat without cutting it first!
+4. Vending machine - Order products based on specific colur entered by user through selection on display sensor. The machine then converts to the RGB code reuest and using a sensor placed on a mobile pad finds the first product that meets the color seelction. e.g. red lolipop
+5. Proximity sensor - If it is placed near the entrace of the pen, then whenever the cat passes it, you can be notified how close the cat is to various rooms within the home.
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?**
 
+The size of the object is important, like how large is the items that holds it elative to size of sensor? Also the material has to be able to hold the sensor inan embeded way that still allows for interaction to detect objects. The cat example may require multiple sensors so you can tell how far he is relative to various distances not just one. With the magnifying glass example, if the item is made from glass will it make sense given one will equire a sensor on the outside of the tool as well as a display on the other side for feedback?
+
+I would need to prototype how the sensor and display are placed in order for the product to "naturally" work with little intuition. If I am using a magnifying glass to inspect something, I expect to read the information on the upper side facing me but I understand I will need the sensor to be placed on the opposing side so the user experience feels close to how they would natuarlly use a magnifying glass to inspect an item.
+
+**Pick one of these designs to prototype.**
+
+Selcting the magnfiying glass device. In Europe avocados have regained a renewed interest becoming incredibly popular over the last 5 years as the "the healthy fat" to add to every meal.  One fustration I have had with it is it can be dificult to tell that it is the "right" level of ripe I desire for edible consumption.
+
+It would be cool if a device can be used and based on training data program the optimized RGB colour for ripeness or even learn my personal RGB preference. Similalry there are dishes that require green plantains (unripe) and those that require ripe plantains, so you can use it for other recipe applications as well.
+
+I will call this device **_"izit"_** thats is to say: "Is it ripe?"
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -218,18 +233,37 @@ Here is an example:
 
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
-**\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+**Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.**
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+1. Box device - houses display and controls front side
+2. Maginfying glass style design
+3. Glasses with display panel and embeded sensor
+4. Photoframe, hold up items to check and interact with buttons at the bottom
+5. Bowl with sensors embeded and display panel at base, can also be programmed to produce other metrics or integrated with dish ideas per weight and size of avocadoes or bananas
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+Will it be convinent fo rth user to always put on glasses to check the fruit ripeness and is that dislay for teh conet of theri interaction (probably in a kitchen?) actually apporporiate. 
+
+I need to see how the sensor positioning relative to the display will be optimally placed to enhance the user expereince.
+
+**Pick one of these display designs to integrate into your prototype.**
+
+Chosen the magnifying glass design for izit and will customize to rectangular shape for easier prototyping.
+
+
+**Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+This needs to be sized relative to the average human hand. it also needs to be light. The sensor should face downwards in the same way one would youse a magnifying glass and the feedback should be upwards over the plate. I do not think it maters if they are directly opposite each other but let me prototype it!
 
 Build a cardbord prototype of your design.
 
-**\*\*\*Document your rough prototype.\*\*\***
+**Document your rough prototype.**
+I used cardboard boxes, customized the sizes down and cut out panels for the display and sensor on opposing sides.
 
+I held the sensor and display down through cellotape within the box and then inserted the pi and let teh cables flow out through teh circular tube from the core of a kitchen towel.
+
+I wraped it all up in white leftover paper and added the logo to the front.
 
 LAB PART 2
 
