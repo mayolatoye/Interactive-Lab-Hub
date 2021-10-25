@@ -322,6 +322,8 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
+I expand below on what I tried, but here is a short clip on one of my trials with the servo.
+
 ### Part F
 ### Record
 
@@ -330,3 +332,70 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+The feedback I received was around making a good useful product with name and to explore the sensots further. Another participant talked about putting more informative information on the display e.g. how many days left to consumer the avocado. Generally feedback was this was a good design.
+
+I agree the concept is interesting but disagreed the design was good. When I thought about the practicality of printing a 3d magnifying object and insertings the Pi within it, the design asthetics did not seem appealing and the weight of carrying such an item in the kitchen when in use seemed inpractical. Since I could not gain access to makers lab yet, this rationale and rethink took me on a different path. 
+
+**New Design Sketch**
+Although this started as an avocado project, it can easily be extended to other vegetables and fruit categories. For example, with further research I discovered the use of spectral color and neural networks could be used in a different but similar application to detect stage of ripeness in produce. I loved to see that this idea coudl actually develop some scalability and help within grocery chains and production chains to quickly sort fruit and vegetables at scale.
+
+With flexibility of use in mind, I pivotted to a design that coudl be mounted on a kitchen worktop. Like a toaster, it need not be pulled out per use but can be ready to go and perhaps later extended to recommend whathealthy meals the participant could produce from the item based on its state of ripeness. e.g. too soft avocado becomes gucamole, firmer avocado can be sliced into a snack dipped in honey e.t.c.
+
+As a result, izit got a rebrand, sketches below.
+
+The sensors/mechanisms I wanted to explore were
+1. Color sensor - to detect ripness factor
+2. Servo - to mount the color sensor on to provide rotation to obtain the color channel coordinates for more than one surface area location on the fruit
+3. The display to provide inforamtional feedback and perhaps action to the participant
+4. Some sort of sensor to start the process, I opted for a button in the end
+
+**Trials**
+
+For my first trial, after working through all the sensors, I wanted to test the servo and explore with the other sensors what was possible.  At first, I thought using some object to push the sesor around such as cardboard moved by the servo could work, but because the item needed to hang down and with gravity, this was really tricky to pull off. Moreover, the color sensor is very senstiive and has a wide channel. So without a secure servo/color sensor bonding, the color readign was allover the place. It actually took a bit of time to debug and translate the color from the sesnsor into an appropriate channel form that reflected the color being picked up also.
+
+So you can see that this trial was unsuccessful and after a few tries it fell apart.
+
+I then reduced how much I moved the servo, dropping down to 10 degree rotation. Thsi did not give me varied values across th esurface area of fruit, the readings were just too tight at 10 degrees movement. 
+
+So I resorted to bond the disposeable plastic turnstine on the servo to the back of the color sensor. This wordked!
+
+Below is an outline of my algorithm. This can be easily extended with more training data and network training, but for the purposes of this excercise satisfied the outcomes required. I also noticed that since I started the project in the morning, by the time I tried to wrap up final videos at night, I had to reset color expectations for ripe and unripe because as mentioned earlier, the light sensor is very sensitive to light and the room lighting change impacted interpretations. That si something we coudl design for, 'night mode/day mode" or we could add time to the device e.t.c.
+
+**System/Algo Design**
+The genreal concept is simple:
+1. Take two readings from the surface of the fruit on color channels
+2. Take their average values
+3. Measure the Euclidean distance between these values and what we have trained the system to understand as a ripe color channel.
+4. Decide what category the readign falls into based on distance with an appropriate interaction message to support
+
+**Paper Prototype**
+It was a good idea to try a rough prorotype because it helped inform me how I could correctly configure the devices and sensors behind the scene. 
+
+I used this YouTube video as inspiration, it is effectively building a coffee machnie which si similar to my sketch but with other design modifications and features. 
+
+You will see I also had to use my CT cup to prop up the fruit in trials to ensure it was picking up the right color readings. I considered making this distance shorter in my final design.
+
+See images and video trials below.
+
+**Final Prototype**
+
+For the final prototype, I created a less bulky design, more compact and easier to use on a kitchen top. I also added a cylinder likepanel over the servo/color sensor to help th euser identify easily where to place the fruit quickly. I found in my paper prototype I was cnstantly looking under the area to find "the best spot" to place it. 
+
+I also loaded my push button with items behidn so I did not have to constantly have my hand holding it in place with the force of a push.
+
+**What It Looks Like**
+So from sketch to final design, this is what it looks like. i was mindful to organize the inside better secodn tie around with the socket plug even connecting at the base neatly.
+
+With a few tools, I achieved a neater more ompat design.
+
+**What It Works Like**
+
+Here is an overview of what the device does:
+
+1. Intiate "on" button to intiialize the rotation of the central mount to check the fruit color over 180 degrees area
+2. It reads in the color channel and also identifies compared to the training data, what category the item falls within
+3. It will then display based on the caetgory outcome the result and an accompanying action to support such as "Wait" or "Eat".
+
+Addign voice interaction and recipie planner could be interesting ways to expand. 
+
+Here are images and a video clip on the final product, _izit_ - The Ripe Frood Checker.
