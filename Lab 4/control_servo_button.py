@@ -21,8 +21,11 @@ BORDER = 5
 
 
 # Setup ripe and unripe avocado values
-ripe_rgb = np.array((73.39, 62.32, 38.75))
-unripe_rgb = np.array((81.79, 77.68, 52.32))
+
+# day time ripe_rgb = np.array((73.39, 62.32, 38.75))
+# day time unripe_rgb = np.array((81.79, 77.68, 52.32))
+ripe_rgb = np.array((111.85, 74.02, 44.38))
+unripe_rgb = np.array((152.68, 105.63, 64.29))
 
 # Set up color board
 #i2c = board.I2C()
