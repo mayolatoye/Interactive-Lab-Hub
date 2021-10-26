@@ -498,7 +498,7 @@ So from sketch to final design, this is what it looks like. I was mindful to org
 
 With a few tools, I achieved a neater more compact design.  It has really evolved since version 1 in the earlier lab :-)
 
- <img src="izit_sketch_final.jpg" width="315" />
+ <img src="izit_sketch_final.jpg" width="400" />
 
 ***
 
@@ -512,7 +512,7 @@ Here is an overview of what the device does:
 
 Adding voice interaction and recipie planner could be interesting ways to expand. It would also be impotrant to do more categorization fo objects if you used it for a wider selection of fruit and vegetables, it would need to first identify the category then use the data it has learned from on what color corresponds to ripe for a particular cateogry of food item.
 
- <img src="izit_waht_it_does.jpg" width="315" />
+ <img src="izit_waht_it_does.jpg" width="400" />
 
 ***
 
