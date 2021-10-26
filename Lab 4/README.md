@@ -200,9 +200,11 @@ I would need to prototype how the sensor and display are placed in order for the
 [![The State of Avocado Selection
 ](isitready.jpeg)](isitready.jpeg)
 
-Selcting the magnfiying glass device. In Europe avocados have regained a renewed interest becoming incredibly popular over the last 5 years as the "the healthy fat" to add to every meal.  One fustration I have had with it is it can be dificult to tell that it is the "right" level of ripe I desire for edible consumption.
+**The State of Avocado Selection**
 
-It would be cool if a device can be used and based on training data program the optimized RGB colour for ripeness or even learn my personal RGB preference. Similalry there are dishes that require green plantains (unripe) and those that require ripe plantains, so you can use it for other recipe applications as well.
+Selecting the magnfiying glass device. In Europe avocados have regained a renewed interest becoming incredibly popular over the last 5 years as the "the healthy fat" to add to every meal.  One fustration I have had with it is it can be dificult to tell that it is the "right" level of ripe I desire for edible consumption.
+
+It would be cool if a device can be used and based on training data program the optimized RGB colour for ripeness or even learn my personal RGB preference. Similalry, there are dishes that require green plantains (unripe) and those that require ripe plantains, so you can use it for other recipe applications as well.
 
 I will call this device **_"izit"_** thats is to say: "Is it ripe?"
 
@@ -256,7 +258,7 @@ Think about how you want to present the information about what your sensor is se
 
 **What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 
-Will it be convinent fo rth user to always put on glasses to check the fruit ripeness and is that dislay for teh conet of theri interaction (probably in a kitchen?) actually apporporiate. 
+Will it be convenient for the user to always put on glasses to check the fruit ripeness and is that dislay for the context of their interaction (probably in a kitchen?) actually apporporiate. 
 
 I need to see how the sensor positioning relative to the display will be optimally placed to enhance the user expereince.
 
@@ -267,14 +269,14 @@ Chosen the magnifying glass design for izit and will customize to rectangular sh
 
 **Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-This needs to be sized relative to the average human hand. it also needs to be light. The sensor should face downwards in the same way one would youse a magnifying glass and the feedback should be upwards over the plate. I do not think it maters if they are directly opposite each other but let me prototype it!
+This needs to be sized relative to the average human hand. It also needs to be light. The sensor should face downwards in the same way one would use a magnifying glass and the feedback should be upwards over the plate. I do not think it maters if they are directly opposite each other but let me prototype it!
 
 Build a cardbord prototype of your design.
 
 **Document your rough prototype.**
 I used cardboard boxes, customized the sizes down and cut out panels for the display and sensor on opposing sides.
 
-I held the sensor and display down through cellotape within the box and then inserted the pi and let teh cables flow out through teh circular tube from the core of a kitchen towel.
+I held the sensor and display down through cellotape within the box and then inserted the pi and let teh cables flow out through the circular tube from the core of a kitchen towel.
 
 I wraped it all up in white leftover paper and added the logo to the front.
 
@@ -325,6 +327,8 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
+**Testing Sensors For Izit**
+
 I expand below (Part F) on what I tried, but here is a short clip on one of my trials with the servo.
 
 ***
@@ -340,12 +344,15 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
-The feedback I received was around making a good useful product with the "cool" name and to explore the sensors further. Another participant talked about putting more informative data on the display e.g. how many days left to consume the avocado. Generally feedback was this was a good design.
+**Izit Feedback**
+
+The feedback I received from Izit Version 1 was positive around having made a good useful product with the "cool" name and to explore the sensors further. Another participant talked about putting more informative data on the display e.g. how many days left to consume the avocado. Generally feedback was this was a good design.
 
 I agree the concept is interesting but disagreed the design was good. When I thought about the practicality of printing a 3d magnifying object and inserting the Pi within it, the design asthetics did not seem appealing and the weight of carrying such an item in the kitchen when in use seemed inpractical. Since I could not gain access to the makers lab yet, this rationale and rethink took me on a different path. 
 
 **New Design Sketch**
-Although this started as an avocado project, it can easily be extended to other vegetables and fruit categories. For example, with further research I discovered the use of spectral color and neural networks could be used in a different but similar application to detect stage of ripeness in produce. I loved to see that this idea could actually develop some scalability and help within grocery chains and production chains to quickly sort fruit and vegetables at scale.
+
+Although this started as an avocado project, it can easily be extended to other vegetables and fruit categories. For example, with further research I discovered the use of spectral color and neural networks could be used in a different but similar application to detect stage of ripeness in produce. I loved to see that this idea could actually develop some scalability and help within grocery chains and production chains to quickly sort fruit and vegetables at scale.  To see more on a project where training data was built to detect "stages of ripening" please visit [here](https://www.hackster.io/kutluhan-aktar/vegetables-and-fruits-ripeness-detection-by-color-w-tf-041f92).
 
 With flexibility of use in mind, I pivoted to a design that could be mounted on a kitchen worktop. Like a toaster, it need not be pulled out per use but can be ready to go and perhaps later extended to recommend what healthy meals the participant could produce from the item based on its state of ripeness. e.g. too soft avocado becomes gucamole, firmer avocado can be sliced into a snack dipped in honey e.t.c.
 
@@ -362,37 +369,41 @@ The sensors/mechanisms I wanted to explore were
 
 **Trials**
 
-For my first trial, after working through all the sensors, I wanted to test the servo and explore with the other sensors what was possible.  At first, I thought using some object to push the sesor around such as cardboard moved by the servo could work, but because the item needed to hang down and with gravity, this was really tricky to pull off. Moreover, the color sensor is very senstiive and has a wide channel. So without a secure servo/color sensor bonding, the color readings were all over the place. It actually took a bit of time to debug and translate the color from the sesnsor into an appropriate channel form that reflected the color being picked up also correctly.
+For my first trial, after working through all the sensors, I wanted to test the servo and explore with the other sensors what was possible.  At first, I thought using some object to push the sesor around such as cardboard moved by the servo could work, but because the item needed to hang down and with gravity, this was really tricky to pull off. Moreover, the color sensor is very senstive and has a wide channel. So without a secure servo/color sensor bonding, the color readings were all over the place. It actually took a bit of time to debug and translate the color from the sesnsor into an appropriate channel form that reflected the color being picked up also correctly.
 
+**Izit Servo And Light Sensor Test**
 ***
 [![izit servo sensor test](izit_logo.jpg)](https://youtu.be/Trv9PS1DppM)
 ***
 
-<img src="failed_experiment.jpg" alt="drawing" width="400"/>
+<img src="failed_experiment.jpg" alt="drawing" width="200"/>
 
 
-So you can see that this trial was unsuccessful and after a few tries it fell apart. The sticky tape was no string enough for the force of the servo motion to hold together.
+So you can see that this trial was unsuccessful and after a few tries it fell apart. The sticky tape was not strong enough for the force of the servo motion when running to hold together.
 
 I then reduced how much I moved the servo, dropping down to 10 degree rotation. This did not give me varied values across the surface area of fruit, the readings were just too tight at 10 degrees movement. 
 
 So I resorted to bond the disposeable plastic turnstine on the servo to the back of the color sensor. This worked!
 
-<img src="sensor_bond.jpg" alt="drawing" width="400"/>
+<img src="sensor_bond.jpg" alt="drawing" width="200"/>
 
 
-Below is an outline of my algorithm. This can be easily extended with more training data and network training, but for the purposes of this excercise satisfied the outcomes required. I also noticed that since I started the project in the morning, by the time I tried to wrap up final videos at night, I had to reset color expectations for ripe and unripe because as mentioned earlier, the light sensor is very sensitive to light and the room lighting change impacted interpretations. That si something we coudl design for, 'night mode/day mode" or we could add time to the device e.t.c.
+Below is an outline of my algorithm. This can be easily extended with more training data and network training, but for the purposes of this excercise satisfied the outcomes required. I also noticed that since I started the project in the morning, by the time I tried to wrap up final videos at night, I had to reset color expectations for ripe and unripe because as mentioned earlier, the light sensor is very sensitive to light and the room lighting change impacted interpretations. That is something we could design for, 'night mode/day mode" or we could add time to the device e.t.c.
 
 **System/Algo Design**
+
 The genreal concept is simple:
+
 1. Take two readings from the surface of the fruit on color channels
 2. Take their average values
 3. Measure the Euclidean distance between these values and what we have trained the system to understand as a ripe color channel.
-4. Decide what category the readign falls into based on distance with an appropriate interaction message to support
+4. Decide what category the reading falls into based on distance from target (ripe) with an appropriate interaction message to support for user feedback
 
 **Paper Prototype**
+
 It was a good idea to try a rough prototype because it helped inform me on how I could correctly configure the devices and sensors behind the scene, paticularly space wise.  
 
-I used this YouTube video as inspiration, it is effectively building a coffee machnie which is similar to my sketch but with other design modifications and features. 
+I used this YouTube video below as inspiration, it is effectively building a coffee machine which is similar to my sketch but with other design modifications and features. 
 
 ***
 [![Build a coffee machine](buildcoffeemachine.jpeg)](https://www.youtube.com/watch?app=desktop&feature=youtu.be&v=HgzQIWhskMk)
@@ -479,9 +490,11 @@ _Final Izit Design_
 
  <img src="final_prototype16.jpg" width="315" />
 
+***
 
 **What It Looks Like**
-So from sketch to final design, this is what it looks like. I was mindful to organize the inside better second time around with the socket plug connecting at the base neatly.
+
+So from sketch to final design, this is what it looks like. I was mindful to organize the inside better third time around with the socket plug connecting at the base neatly.
 
 With a few tools, I achieved a neater more compact design.  It has really evolved since version 1 in the earlier lab :-)
 
@@ -493,11 +506,11 @@ With a few tools, I achieved a neater more compact design.  It has really evolve
 
 Here is an overview of what the device does:
 
-1. Initiate "on" button to intiialize the rotation of the central mount to check the fruit color over 180 degrees area
-2. It reads in the color channel and also identifies compared to the training data, what category the item falls within
+1. Initiate "on" button to intialize the rotation of the central mount to check the fruit color over 180 degrees area
+2. It reads in the color channels and also identifies compared to the training data, what category the item falls within
 3. It will then display based on the caetgory outcome the result and an accompanying action to support such as "Wait" or "Eat".
 
-Adding voice interaction and recipie planner could be interesting ways to expand. 
+Adding voice interaction and recipie planner could be interesting ways to expand. It would also be impotrant to do more categorization fo objects if you used it for a wider selection of fruit and vegetables, it would need to first identify the category then use the data it has learned from on what color corresponds to ripe for a particular cateogry of food item.
 
  <img src="izit_waht_it_does.jpg" width="315" />
 
@@ -505,9 +518,9 @@ Adding voice interaction and recipie planner could be interesting ways to expand
 
 **What It Acts Like**
 
-Here are a series of final demo video clips on the final product, _izit_ - The Ripe Food Checker.
+Here are a series of final demo video clips on the final product, _Izit version 3.0_ - The Ripe Food Checker.
 
-***
+
 **Izit v3 Full Demo**
 
 [![izit full demo](izit_logo.jpg)](https://youtu.be/qSDhD79xmJw)
@@ -522,4 +535,7 @@ Here are a series of final demo video clips on the final product, _izit_ - The R
 
 [![izit under the hood demo](izit_logo.jpg)](https://youtu.be/ezYmdvx3S2A)
 ***
+
+
+As always, thanks to my amazing family for their support on the paper prototyping aspects, we had fun and enjoyed ripe avocados 🥑 :-)
 
