@@ -197,6 +197,9 @@ I would need to prototype how the sensor and display are placed in order for the
 
 **Pick one of these designs to prototype.**
 
+[![The State of Avocado Selection
+](isitready.jpeg)](isitready.jpeg)
+
 Selcting the magnfiying glass device. In Europe avocados have regained a renewed interest becoming incredibly popular over the last 5 years as the "the healthy fat" to add to every meal.  One fustration I have had with it is it can be dificult to tell that it is the "right" level of ripe I desire for edible consumption.
 
 It would be cool if a device can be used and based on training data program the optimized RGB colour for ripeness or even learn my personal RGB preference. Similalry there are dishes that require green plantains (unripe) and those that require ripe plantains, so you can use it for other recipe applications as well.
@@ -322,7 +325,12 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
-I expand below on what I tried, but here is a short clip on one of my trials with the servo.
+I expand below (Part F) on what I tried, but here is a short clip on one of my trials with the servo.
+
+***
+[![izit servo basic test](izit_logo.jpg)](https://youtu.be/shX0f09OHHo)
+***
+
 
 ### Part F
 ### Record
@@ -332,16 +340,19 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
-The feedback I received was around making a good useful product with name and to explore the sensots further. Another participant talked about putting more informative information on the display e.g. how many days left to consumer the avocado. Generally feedback was this was a good design.
+The feedback I received was around making a good useful product with the "cool" name and to explore the sensors further. Another participant talked about putting more informative data on the display e.g. how many days left to consume the avocado. Generally feedback was this was a good design.
 
-I agree the concept is interesting but disagreed the design was good. When I thought about the practicality of printing a 3d magnifying object and insertings the Pi within it, the design asthetics did not seem appealing and the weight of carrying such an item in the kitchen when in use seemed inpractical. Since I could not gain access to makers lab yet, this rationale and rethink took me on a different path. 
+I agree the concept is interesting but disagreed the design was good. When I thought about the practicality of printing a 3d magnifying object and inserting the Pi within it, the design asthetics did not seem appealing and the weight of carrying such an item in the kitchen when in use seemed inpractical. Since I could not gain access to the makers lab yet, this rationale and rethink took me on a different path. 
 
 **New Design Sketch**
-Although this started as an avocado project, it can easily be extended to other vegetables and fruit categories. For example, with further research I discovered the use of spectral color and neural networks could be used in a different but similar application to detect stage of ripeness in produce. I loved to see that this idea coudl actually develop some scalability and help within grocery chains and production chains to quickly sort fruit and vegetables at scale.
+Although this started as an avocado project, it can easily be extended to other vegetables and fruit categories. For example, with further research I discovered the use of spectral color and neural networks could be used in a different but similar application to detect stage of ripeness in produce. I loved to see that this idea could actually develop some scalability and help within grocery chains and production chains to quickly sort fruit and vegetables at scale.
 
-With flexibility of use in mind, I pivotted to a design that coudl be mounted on a kitchen worktop. Like a toaster, it need not be pulled out per use but can be ready to go and perhaps later extended to recommend whathealthy meals the participant could produce from the item based on its state of ripeness. e.g. too soft avocado becomes gucamole, firmer avocado can be sliced into a snack dipped in honey e.t.c.
+With flexibility of use in mind, I pivoted to a design that could be mounted on a kitchen worktop. Like a toaster, it need not be pulled out per use but can be ready to go and perhaps later extended to recommend what healthy meals the participant could produce from the item based on its state of ripeness. e.g. too soft avocado becomes gucamole, firmer avocado can be sliced into a snack dipped in honey e.t.c.
 
-As a result, izit got a rebrand, sketches below.
+As a result, _izit_ got a rebrand, final sketch below.
+
+<img src="izit_v3_sketch.jpg" alt="drawing" width="400"/>
+
 
 The sensors/mechanisms I wanted to explore were
 1. Color sensor - to detect ripness factor
@@ -351,13 +362,23 @@ The sensors/mechanisms I wanted to explore were
 
 **Trials**
 
-For my first trial, after working through all the sensors, I wanted to test the servo and explore with the other sensors what was possible.  At first, I thought using some object to push the sesor around such as cardboard moved by the servo could work, but because the item needed to hang down and with gravity, this was really tricky to pull off. Moreover, the color sensor is very senstiive and has a wide channel. So without a secure servo/color sensor bonding, the color readign was allover the place. It actually took a bit of time to debug and translate the color from the sesnsor into an appropriate channel form that reflected the color being picked up also.
+For my first trial, after working through all the sensors, I wanted to test the servo and explore with the other sensors what was possible.  At first, I thought using some object to push the sesor around such as cardboard moved by the servo could work, but because the item needed to hang down and with gravity, this was really tricky to pull off. Moreover, the color sensor is very senstiive and has a wide channel. So without a secure servo/color sensor bonding, the color readings were all over the place. It actually took a bit of time to debug and translate the color from the sesnsor into an appropriate channel form that reflected the color being picked up also correctly.
 
-So you can see that this trial was unsuccessful and after a few tries it fell apart.
+***
+[![izit servo sensor test](izit_logo.jpg)](https://youtu.be/Trv9PS1DppM)
+***
 
-I then reduced how much I moved the servo, dropping down to 10 degree rotation. Thsi did not give me varied values across th esurface area of fruit, the readings were just too tight at 10 degrees movement. 
+<img src="failed_experiment.jpg" alt="drawing" width="400"/>
 
-So I resorted to bond the disposeable plastic turnstine on the servo to the back of the color sensor. This wordked!
+
+So you can see that this trial was unsuccessful and after a few tries it fell apart. The sticky tape was no string enough for the force of the servo motion to hold together.
+
+I then reduced how much I moved the servo, dropping down to 10 degree rotation. This did not give me varied values across the surface area of fruit, the readings were just too tight at 10 degrees movement. 
+
+So I resorted to bond the disposeable plastic turnstine on the servo to the back of the color sensor. This worked!
+
+<img src="sensor_bond.jpg" alt="drawing" width="400"/>
+
 
 Below is an outline of my algorithm. This can be easily extended with more training data and network training, but for the purposes of this excercise satisfied the outcomes required. I also noticed that since I started the project in the morning, by the time I tried to wrap up final videos at night, I had to reset color expectations for ripe and unripe because as mentioned earlier, the light sensor is very sensitive to light and the room lighting change impacted interpretations. That si something we coudl design for, 'night mode/day mode" or we could add time to the device e.t.c.
 
@@ -369,33 +390,136 @@ The genreal concept is simple:
 4. Decide what category the readign falls into based on distance with an appropriate interaction message to support
 
 **Paper Prototype**
-It was a good idea to try a rough prorotype because it helped inform me how I could correctly configure the devices and sensors behind the scene. 
+It was a good idea to try a rough prototype because it helped inform me on how I could correctly configure the devices and sensors behind the scene, paticularly space wise.  
 
-I used this YouTube video as inspiration, it is effectively building a coffee machnie which si similar to my sketch but with other design modifications and features. 
+I used this YouTube video as inspiration, it is effectively building a coffee machnie which is similar to my sketch but with other design modifications and features. 
 
-You will see I also had to use my CT cup to prop up the fruit in trials to ensure it was picking up the right color readings. I considered making this distance shorter in my final design.
+***
+[![Build a coffee machine](buildcoffeemachine.jpeg)](https://www.youtube.com/watch?app=desktop&feature=youtu.be&v=HgzQIWhskMk)
+***
+
+You will see I also had to use my Cornell Tech cup (which I won in Product Studio :-))to prop up the fruit in trials to ensure it was close enough to picking up the right color readings. I considered making this distance shorter in my final design but with enough wiggle room to extend to other vegetables/fruits.
 
 See images and video trials below.
 
-**Final Prototype**
+**Paper Prototype - Izit Version 2**
 
-For the final prototype, I created a less bulky design, more compact and easier to use on a kitchen top. I also added a cylinder likepanel over the servo/color sensor to help th euser identify easily where to place the fruit quickly. I found in my paper prototype I was cnstantly looking under the area to find "the best spot" to place it. 
+<p float="left">
+  <img src="paper_prototype1.jpg" width="100" />
+  <img src="paper_prototype2.jpg" width="100" /> 
+  <img src="paper_prototype3.jpg" width="100" />
+</p>
 
-I also loaded my push button with items behidn so I did not have to constantly have my hand holding it in place with the force of a push.
+<p float="left">
+  <img src="paper_prototype4.jpg" width="100" />
+  <img src="paper_prototype5.jpg" width="100" /> 
+  <img src="paper_prototype6.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="paper_prototype7.jpg" width="100" />
+  <img src="paper_prototype8.jpg" width="100" /> 
+  <img src="paper_prototype9.jpg" width="100" />
+</p>
+
+**Paper Prototype - Izit Version 2**
+***
+[![Paper Prototype Demo](paper_prototype8.jpg)](https://youtu.be/y04dkYDrVak)
+***
+
+**Final Prototype - Izit Version 3**
+
+For the final prototype, I created a less bulky design, more compact and easier to use on a kitchen top. I also added a cylinder like panel over the servo/color sensor to help the user identify easily where to place the fruit quickly. I found in my paper prototype I was constantly looking under the area to find "the best spot" to place it. 
+
+I also loaded my push button with items behind so I did not have to constantly have my hand holding it in place with the force of a push.
+
+I also made minor tweaks to my sketch to align the "on" button to the right (as most participants interacting are likely to be right handed and expect this) and it seemed spacially and asthetically approporate to horizontally configure the display at a similar level on the other side. 
+
+This is the process of building.
+
+**Final Prototype Build**
+
+<p float="left">
+  <img src="final_prototype0.jpg" width="100" />
+  <img src="final_prototype1.jpg" width="100" /> 
+  <img src="final_prototype2.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="final_prototype3.jpg" width="100" />
+  <img src="final_prototype4.jpg" width="100" /> 
+  <img src="final_prototype5.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="final_prototype6.jpg" width="100" />
+  <img src="final_prototype7.jpg" width="100" /> 
+  <img src="final_prototype8.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="final_prototype9.jpg" width="100" />
+  <img src="final_prototype10.jpg" width="100" /> 
+  <img src="final_prototype11.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="final_prototype12.jpg" width="100" />
+  <img src="final_prototype14.jpg" width="100" /> 
+  <img src="final_prototype15.jpg" width="100" />
+</p>
+<p float="left">
+  <img src="final_prototype16.jpg" width="100" />
+  <img src="final_prototype17.jpg" width="100" /> 
+  <img src="final_prototype18.jpg" width="100" />
+</p>
+
+ <p float="left">
+  <img src="final_prototype19.jpg" width="100" />
+  <img src="final_prototype20.jpg" width="100" /> 
+  <img src="final_prototype21.jpg" width="100" />
+</p>
+
+_Final Izit Design_
+
+ <img src="final_prototype16.jpg" width="315" />
+
 
 **What It Looks Like**
-So from sketch to final design, this is what it looks like. i was mindful to organize the inside better secodn tie around with the socket plug even connecting at the base neatly.
+So from sketch to final design, this is what it looks like. I was mindful to organize the inside better second time around with the socket plug connecting at the base neatly.
 
-With a few tools, I achieved a neater more ompat design.
+With a few tools, I achieved a neater more compact design.  It has really evolved since version 1 in the earlier lab :-)
+
+ <img src="izit_sketch_final.jpg" width="315" />
+
+***
 
 **What It Works Like**
 
 Here is an overview of what the device does:
 
-1. Intiate "on" button to intiialize the rotation of the central mount to check the fruit color over 180 degrees area
+1. Initiate "on" button to intiialize the rotation of the central mount to check the fruit color over 180 degrees area
 2. It reads in the color channel and also identifies compared to the training data, what category the item falls within
 3. It will then display based on the caetgory outcome the result and an accompanying action to support such as "Wait" or "Eat".
 
-Addign voice interaction and recipie planner could be interesting ways to expand. 
+Adding voice interaction and recipie planner could be interesting ways to expand. 
 
-Here are images and a video clip on the final product, _izit_ - The Ripe Frood Checker.
+ <img src="izit_waht_it_does.jpg" width="315" />
+
+***
+
+**What It Acts Like**
+
+Here are a series of final demo video clips on the final product, _izit_ - The Ripe Food Checker.
+
+***
+**Izit v3 Full Demo**
+
+[![izit full demo](izit_logo.jpg)](https://youtu.be/qSDhD79xmJw)
+***
+
+**Izit v3 Closeup Demo**
+
+[![izit close up](izit_logo.jpg)](https://youtu.be/qSDhD79xmJw)
+***
+
+**Izit v3 Under The Hood Demo**
+
+[![izit under the hood demo](izit_logo.jpg)](https://youtu.be/ezYmdvx3S2A)
+***
+
