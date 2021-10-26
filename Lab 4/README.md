@@ -528,7 +528,7 @@ Here are a series of final demo video clips on the final product, _Izit version 
 
 **Izit v3 Closeup Demo**
 
-[![izit close up](izit_logo.jpg)](https://youtu.be/qSDhD79xmJw)
+[![izit close up](izit_logo.jpg)](https://youtu.be/EQkcWSTewpA)
 ***
 
 **Izit v3 Under The Hood Demo**
