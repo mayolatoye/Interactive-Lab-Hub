@@ -1,0 +1,3 @@
+0 Background
+1 Moderately Untidy
+2 Very Untidy
