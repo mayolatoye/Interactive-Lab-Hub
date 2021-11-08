@@ -294,7 +294,18 @@ Try out different interaction outputs and inputs.
 
 I will be using the Teachable Machines classification model.
 
-The class of objects will be books, toys and clothes.
+The class labels will be:
+0 - Background
+1 - Moderately Tidy
+2 - Very Untidy
+
+The class of objects will contain books, toys and clothes.
+
+_Example of Teachable Machines Training Process_
+<p float="left">
+<img src="teachable_training.jpg" width="300" />
+</p>
+
 
 The interaction I wish to prototype is displayed in the Venplak diagram below. Simply,  JibberChatter will watch the child's room continously. 
 
@@ -305,7 +316,10 @@ When the room becomes untidy with books/clothing/toys on the floor it will send 
 A further enhancement building on [Lab 3](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Lab%203) can involve waiting to hear a voice acknowledgement that the children will accept the request to tidy up. The device can escalate consequential actions such as "I will lock your ipad devices for  hours" to "I will send a push notifcation to your mother at work to let her know you are on listening".
 
 
-_Venplak Diagram_
+**Verplank diagram**
+
+[![Verplank diagram for jibber chatter device](JibberChatterWatches.jpg)](JibberChatterWatches.jpg)
+
 
 
 _Interaction Flow_
