@@ -347,7 +347,7 @@ _Response given above. To expand further, I think if I trained it with samples o
 
 **When It Breaks**
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/vEewWRtFOaE)
+[![JibberChatter](jibberchater_play.png)](https://youtu.be/vEewWRtFOaE)
 ***
 
 
@@ -416,7 +416,7 @@ I tried to also break it by running an experiment to change the room it was trai
 
 **Change The Room To Break It**
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/1PAjivpFmKU)
+[![JibberChatter](jibberchater_play.png)](https://youtu.be/1PAjivpFmKU)
 ***
 
 * What are other properties/behaviors of X?
@@ -446,7 +446,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/Pp4G0JH3lPQ)
+[![JibberChatter](jibberchater_play.png)](https://youtu.be/Pp4G0JH3lPQ)
 ***
 
 
@@ -454,12 +454,12 @@ You can also watch JibberChatter monitor the room in a different setting from wh
 
 **Reverse Clean**
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/R8vOhT0UZQ0)
+[![JibberChatter](jibberchater_play.png)](https://youtu.be/R8vOhT0UZQ0)
 ***
 
 **System Control View**
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/XFi1gk4lIos)
+[![JibberChatter](jibberchater_play.png)](https://youtu.be/XFi1gk4lIos)
 ***
 
 _System Control View_
