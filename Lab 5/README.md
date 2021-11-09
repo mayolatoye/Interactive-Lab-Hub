@@ -101,6 +101,7 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Contours**
 This algorithm does well to help identify objects, though the larger the item the easier as you can see below, the curved line represents the boundaries of the same values or intensities but the fine print of the product itself isnot picked up as easily.  So this will be useful perhaps for helping to identify a group of objects of a certain size upwards such as face, food items, buildings e.t.c. So for example, you could use it to help you decide what kind of action a car should take if it is being driven in a busy urban city or in a country side location - ply type of music in the car, change car automatic car control e.t.c.
 
@@ -153,6 +154,8 @@ _Example Image of Test_
 
 =======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
@@ -190,6 +193,7 @@ Try the two main features of this script: 1) pinching for percentage control, an
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 _Example Image of Test_
 
 <p float="left">
@@ -209,6 +213,11 @@ _Example Image of Test_
 You could utilize the various signs within a sign lanaguge application. You can also connect them to voice so that the interpretations could be linked to certain words and re-purposed conent shown in audio format for those who have an auditory prefence over sign language preference.
 
 Another application could be to call the elevator in a building. Perhaps instead of talking, you can make a visual gesture of the floor number you wish to go to. The screen can re-affirm this interaction by showing a visual representation of the number you jsut "signed", and you can also accept visual cues like a thumbs up or implict cues like a nod of the head.
+=======
+(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
+
+
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 =======
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
@@ -248,6 +257,7 @@ This might take a while to get fully installed. After installation, connect your
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 _My Experience_
 
 So I made a mask and tried to run to see if it coudl distinguish between my face - no mask, mask and the background.
@@ -277,6 +287,8 @@ _Example Image of Test_
 
 =======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -304,6 +316,7 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 I will be using the Teachable Machines classification model.
 
@@ -337,10 +350,13 @@ A further enhancement building on [Lab 3](https://github.com/mayolatoye/Interact
 
 =======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 For example:
@@ -384,6 +400,8 @@ _I would add more training data to incorpoate adults **and** children. I would a
 
 _Yes. You can focus more on motion detection, if they are running too much within a closed space you may want to make a voice alert to usher them to stop. You could also explore some further face detection to see if they look to be a in a good mood or not based on the contours around the eyes and mouth. Another angle could be using flow direction to check they are not going near areas like windows._
 =======
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
@@ -395,6 +413,9 @@ For example:
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+<<<<<<< HEAD
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
+=======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 
 ### Part D
@@ -403,6 +424,7 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 The JibberChatter device can be used as an additional "pair of eyes" like a cost-effcient virtual babysitter **compliment** not substitute!
@@ -442,6 +464,8 @@ JibberChatter feels like an "aunty". A helper around the home to assist and make
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\*** 
 =======
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 * What is a good environment for X?
 * What is a bad environment for X?
 * When will X break?
@@ -450,6 +474,9 @@ JibberChatter feels like an "aunty". A helper around the home to assist and make
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+<<<<<<< HEAD
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
+=======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 
 ### Part 2.
@@ -457,6 +484,7 @@ JibberChatter feels like an "aunty". A helper around the home to assist and make
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ***
@@ -480,5 +508,7 @@ _System Control View_
 <p float="left">
 <img src="jc_systemcontrol.jpg" width="300" />
 </p>
+=======
+>>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
 =======
 >>>>>>> c4612e91ffc45e04a457a3e5492b40c3d13ce557
