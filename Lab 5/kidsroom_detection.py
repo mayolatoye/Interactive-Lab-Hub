@@ -7,18 +7,6 @@ import numpy as np
 import cv2
 import sys
 import os
-import pygame
-pygame.mixer.init()
-
-
-# def playSound(fname="./ding.mp3"):
-#    #  pygame.mixer.music.load(fname)
-#    #  pygame.mixer.music.play()
-#    #  while pygame.mixer.music.get_busy() == True:
-#    #      continue
-
-#    os.system(f"""/usr/bin/mplayer -ao alsa:device=hw=1.0 {fname} """); 
-
 
 
 def say(msg):
