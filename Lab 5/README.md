@@ -322,18 +322,15 @@ A further enhancement building on [Lab 3](https://github.com/mayolatoye/Interact
 
 
 
-_Interaction Flow_
-
-
-
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
+
 For example:
 1. When does it what it is supposed to do?
 
-_It understand clearly when the room is empty and tidy, the delineation between moderrately untidy adn very untidy can be more diffficult to reach. I suspect with more training samples this would improve._
+_It understands clearly when the room is empty and tidy, the delineation between moderately untidy and very untidy can be more diffficult to reach. I suspect with more training samples this would improve._
 
 2. When does it fail?
 
@@ -341,16 +338,23 @@ _It fails sometimes when it thinks the room has become moderately tidy, then say
 
 3. When it fails, why does it fail?
 
-_Response given above. To expand further, I think if I trained it with samples of people in the various class conexts as well, it would probably run into this issue less frequently._
+_Response given above. To expand further, I think if I trained it with samples of people in the various class conexts as well, it would probably run into this issue less frequently. i also saw it struggles with "moving toys" and possibly "moving humans". See example video below._
+
+**When It Breaks**
+***
+[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/vEewWRtFOaE)
+***
+
+
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-_The other scenarios that coudl cause problems is when childen are actively playing within the setting. With cnstant movement and toys beign brought in and out, it may get confussed and fail more fequently because it does not understand what the people are especially if there are several childen playing. It woudl also be less effective if it does not understand the difference between "play" and "mess"._
+_The other scenarios that could cause problems is when childen are actively playing within the setting. With constant movement and toys being brought in and out, it may get confussed and fail more frequently because it does not understand what the people are especially if there are several children playing or lots of moving toys like electric trains on a track. It would also be less effective if it does not understand the difference between "play" and "mess"._
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
 
-_I imagine a person using this would not be initially aware of the issue of not distinguising when childen are just playing or the room is actually clear and empty. The voice message also does not actually capture "play" but it does offer some neutrality in that "there is nothing to report"_
+_I imagine a person using this would not be initially aware of the issue of not distinguising when children are just playing or the room is actually clear and empty. The voice message also does not actually capture "play" but it does offer some neutrality in that "there is nothing to report"_
 
 2. How bad would they be impacted by a miss classification?
 
@@ -358,11 +362,11 @@ _The problem however would stem from when the system finally stabilizes to a poi
 
 3. How could change your interactive system to address this?
 
-_I would add moe training data to incorpoate adults **and** children. I woudl also make sure this data shows various situational poses in particular to capture the movement of children playing, and playing **with** the toys in order for it to be able to distinguish more easily the act of "play" from "mess"._
+_I would add more training data to incorpoate adults **and** children. I would also make sure this data shows various situational poses in particular to capture the movement of children playing, and playing **with** the toys, including toys with movement in order for it to be able to distinguish more easily the act of "play" from "mess"._
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
-_Yes. You can focus more on motion detection, if they are runnign too much within a closed space you may want to make a voice alert to usher them to stop. You could also epxlore some further face detection to see if they look to be a in a good mood or not based on the contours around he eyes and mouth. Another angle could be using flow directionto check they are not going near areas like windows_
+_Yes. You can focus more on motion detection, if they are running too much within a closed space you may want to make a voice alert to usher them to stop. You could also explore some further face detection to see if they look to be a in a good mood or not based on the contours around the eyes and mouth. Another angle could be using flow direction to check they are not going near areas like windows._
 
 ### Part D
 ### Characterize your own Observant system
@@ -371,35 +375,42 @@ Now that you have experimented with one or more of these sense-making systems **
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
 
-The JibberChatter device can be used as an additional "pair of eyes" like a virtual nanny **commpliment** not susbstitute!
+The JibberChatter device can be used as an additional "pair of eyes" like a cost-effcient virtual babysitter **compliment** not substitute!
 
-She can interact with them through simple voice commands when tasks like tidyign up needs to be done and when they should be done for. 
+She can interact with them through simple voice commands when tasks like tidying up needs to be done and when they should be done for. 
 
 * What is a good environment for X?
 
-A good environment for JibberChatter in this scenario setting is for "stay at home" mothers or home schooling children. It can provide an acoompanie dproducivity boost with its simple reminders and warnings.
+A good environment for JibberChatter in this scenario setting is for "stay at home" mothers or home schooling children. It works better in limited or confined spaces it can learn and control better the boundaries of interactions. It can provide an acoompanied producivity boost with its simple reminders and warnings.
 
 * What is a bad environment for X?
 
-A bad environment could be one with multiple objects or persons it is unfamiliar with. So a goverment office for example where people are coming in and out queing for various things.
+A bad environment could be one with multiple objects or persons it is unfamiliar with. So a government office for example where people are coming in and out queing for various things that are always changing in style/motion.
 
 * When will X break?
 
-JibberChatter "breaks" in this setting if the camera cannot capture the correct perspective within the room. I actually ran into this issue a few times and it took so long to capture a full length film because sometimes the system was simply unable to open the WebCam, so without any line of vision either through technical difficulty or a human "moves" the devices viewpoint, it will become useless in its output or simply breakdown and close like it did for me.
+JibberChatter "breaks" in this setting if the camera cannot capture the correct perspective within the room. I actually ran into this issue a few times and it took so long to capture a full length film because sometimes the system was simply unable to open the WebCam, so without any line of vision either through technical difficulty or a human "moves" the devices viewpoint to say a window seal, it will become useless in its output or simply breakdown and close like it did for me.
 
 * When it breaks how will X break?
 
-If it breaks technicaly, it simply shuts down teh entire system. If it breaks becaus eof human intervention changing its purview it will just output redundant irrelevant messages most likely about the background eg. say its place along a wall or turned away.
+If it breaks technicaly, it simply shuts down the entire system. If it breaks because of human intervention changing its purview it will just output redundant irrelevant messages most likely about the background eg. say its placed along a wall or turned away.
+
+I tried to also break it by running an experiment to change the room it was trained in. I was unable to break it! It still understood when the room was clear, moderately untidy and also very untidy.
+
+**Change The Room To Break It**
+***
+[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/1PAjivpFmKU)
+***
 
 * What are other properties/behaviors of X?
 
-JibberChatter could be characterized to sound mor elike a familiar voice of the child, or even more like an actual child. This could impact how he child responds to the commands overtime and in some cases may improve their response. Given more time, I intended to connect JibberChatter to other decvices such as a smart tv or ipad device. So if an action was not taken she could switch ti off automatically or switch it on if the right action she proposed was taken. Sort of like a rewards vs consequence system.
+JibberChatter could be characterized to sound more like a familiar voice of the child, or even more like an actual child. This could impact how the child responds to the commands overtime and in some cases may improve their response. Given more time, I intended to connect JibberChatter to other devices such as a smart tv or ipad device. So if an action was not taken she could switch it off automatically or switch it on if the right action she proposed was taken. Sort of like a rewards vs consequence system.
 
 * How does X feel?
 
-JibberChatter feels like an "aunty". A helper aroudn the home to assist and make things more productive but also provide guidance when people are stepping out of line.
+JibberChatter feels like an "aunty". A helper around the home to assist and make things more productive but also provide guidance when people are stepping out of line.
 
-**\*\*\*Include a short video demonstrating the answers to these questions.\*\*\*** - not sure how the above is possible to enact via video? The below video summarizes the behaviour well.
+**\*\*\*Include a short video demonstrating the answers to these questions.\*\*\*** 
 
 ### Part 2.
 
@@ -408,5 +419,23 @@ Following exploration and reflection from Part 1, finish building your interacti
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
 ***
-[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/LEHyULfTzJ0)
+[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/Pp4G0JH3lPQ)
 ***
+
+
+You can also watch JibberChatter monitor the room in a different setting from where she was trained and also show the "reverse clean up duty" to get back to a tidy room here. 
+
+**Reverse Clean**
+***
+[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/R8vOhT0UZQ0)
+***
+
+**System Control View**
+***
+[![JibberChatter](JibberChatterLogo.png)](https://youtu.be/XFi1gk4lIos)
+***
+
+_System Control View_
+<p float="left">
+<img src="jc_systemcontrol.jpg" width="300" />
+</p>
