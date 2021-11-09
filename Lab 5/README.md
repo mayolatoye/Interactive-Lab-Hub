@@ -457,6 +457,9 @@ You can also watch JibberChatter monitor the room in a different setting from wh
 [![JibberChatter](jibberchater_play.png)](https://youtu.be/R8vOhT0UZQ0)
 ***
 
+I realized during playback that, it did not understand the room was being "worked on" and so the messages shoudl change in reverse order such as "well done, you are making good progress" rather than just dropping down its acknowledgement to differentiate that the room is getting less tidy only. This is not necessarily bad  as it still works as intended but would greatly improve the interaction and "humanize" the device in udnerstanding progress was being made so it should adjust its messaging.
+
+
 **System Control View**
 ***
 [![JibberChatter](jibberchater_play.png)](https://youtu.be/XFi1gk4lIos)
