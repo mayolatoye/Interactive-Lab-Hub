@@ -174,7 +174,7 @@ _Participant: I feel happy_
 
 _Mirror: You are a bright and cheerful person stay at peace and enjoy your day...namaste!_
 
-While this was simply to achieve a functional check off in terms of having a data model and baseline paper prototype of the interaction, there is a fundamental HCI flaw in this. Based on external feedback, while identifying the correct expression through facial detection may have soem value, espressing your outcome back to the participant can actually work adversely to put them in the wrogn stat of mind. If you allow for model miscalssification on some of these runs the problem becomes even bigger.
+While this was simply to achieve a functional check-off in terms of having a data model and baseline paper prototype of the interaction, there is a fundamental HCI flaw in this. Based on external feedback, while identifying the correct expression through facial detection may have some value, exspressing your outcome back to the participant can actually work adversely to put them in the wrong state of mind. If you allow for model misclassification on some of these runs, the problem becomes even bigger.
 
 So while it has been sueful to get the basic frameworks in place for facial calssification, I needed to explore a re-design of aspects of the system with this feedback.
 
@@ -190,9 +190,9 @@ So I took some inspiration from the health benefits of [facial yoga](https://www
 
 Professor Ju gave some inspiration around cat memes as a visual that typicaly evokes some reaction (usually poistive) when shown to the average participant. So I went further down this theme to combine the ideas. 
 
-Using memes and jokes that could be visualized, the participant would enter a facial excersise gym daily to work out their facial muscles in the direction of smiling. The idea is this woudl be memes they had not seend yet so it would keep it fresh so you could get a genuine reaction. It is suttle and would need further work but the idea underlying in this is you also indirectly boost your mood when you smile or have something that cuases you to smile. The extent to which your facial muscles have moved (how good a workout you had) can then be used as a performance measure on how well the facial excercise session went. 
+Using memes and jokes that could be visualized, the participant would enter a facial excersise gym daily to work out their facial muscles in the direction of smiling. The idea is this would be memes they had not seend yet so it would keep it fresh so you could get a genuine reaction. It is subtle and would need further work but the idea underlying in this is you also indirectly boost your mood when you smile or have something that cuases you to smile. The extent to which your facial muscles have moved (how good a workout you had) can then be used as a performance measure on how well the facial excercise session went. 
 
-The idea is not to force a smile, though if you are choosing to perform some sort of facial excercise with associated health beenfits you amy want to track and understand your performance overtime. There woudl also be need to expand the scope of facial workouts, perhaps guiding the participant in how to stretch e.t.c. over time.
+The idea is not to force a smile, though if you are choosing to perform some sort of facial excercise with associated health benfits you may want to track and understand your performance overtime. There would also be need to expand the scope of facial workouts, perhaps guiding the participant in how to stretch e.t.c. over time.
 
 **System Sketch**
 
@@ -217,13 +217,14 @@ The idea is not to force a smile, though if you are choosing to perform some sor
 _Magic Mirror_
 
 Using the UI and connecting to the Raspeberry Pi allowed front end maximal manipulation and re-design.
+
 This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf) you can also see teh customm code for this project [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab/mindfulmirror)
 
 _Visualizations_
 
 The memes are some of the "funny" content are created using the wonderful program [canva](https://www.canva.com/) I was asked about this a lot on demo day.
 
-Here is a sample of some of the visuals once he session was completed by the user.
+Here is a sample of some of the visuals once the session was completed by the user.
 
 <p float="left">
   <img src="images/1.png" width="150" />
@@ -232,9 +233,10 @@ Here is a sample of some of the visuals once he session was completed by the use
 
 **Video of Interaction**
 
-_The initial ~30 sec pause is the time it takes to start the system frmm teh command line and then once its up, the camera switches on and thn tries to perform facial detection._
+_The initial ~30 sec pause is the time it takes to start the system frmm the command line and then once its up, the camera switches on and thn tries to perform facial detection._
 
 The general video of interaction can be seen [here](https://youtu.be/e1YRaDTXr1Q)
+
 The closeup video of interaction can be seen [here](https://youtu.be/SXI-HJY2lLs)
 
 **Code Base**
@@ -243,9 +245,9 @@ The code base including the first iteration and final work can be found in this 
 
 **Feedback & Improvements**
 
-Generally I had a lot of interst and good feedback. I liked some people tried to test and break the system by pulling sad faces. It was also interesting that even with a small set of trianing data it still worked very well on out of sample data (the entire class!).
+Generally I had a lot of interest and good feedback. I liked some people tried to test and break the system by pulling sad faces. It could be cool if the system recognizes that and then rebalances to play a different game with them like "pulling faces" and then asking them to mimicing it, this could be an easy way fo getting those facial stretches in. It was also interesting that even with a small set of trianing data it still worked very well on out of sample data (the entire class!).
 
-I did receive some feedback that forcing a participant to smile was somewhat dystopian (non class member). To this I think context is missing. The participant that woudl use this would believe in soem sort of health or mental benefit in NLP to some degree. Secondly I think there are two aspects to this that are beign fussed, excersise for geenral (more physical) health and excercise of mental boost. The system in effect does not need you to smile if a meme is not funny, it can try to learn overtiem teh genre of memes you find funniest so you are not being forced to pull your muscles positviely. Also, there is the physical health componenet aspects to it that generally participants like to be abel to measure and enjoy soem sort of gamifiationa round. I actually found some people begin to see this as more of a competition as the quote they got was related to how well the session went hoever it was always positive.  I think there is a lot of scope to engineer the system further and really think more deeply abotu the optimal way to design and model this HCI.
+I did receive some feedback that forcing a participant to smile was somewhat dystopian (non class member). To this I think context is missing. The participant that would use this would believe in some sort of health or mental benefit in NLP to some degree. Secondly I think there are two aspects to this that are being fussed, excersise for general (more physical) health and excercise for mental boost. The system in effect does not need you to smile if a meme is not funny, it can try to learn overtime the genre of memes you find funniest so you are not being forced to pull your muscles positviely. Also, there is the physical health componenet aspects to it that generally participants like to be able to measure and enjoy some sort of gamifiation around. Shoudl this be supported? I actually found some people begin to see this as more of a competition as the quote they got was related to how well the session went however it was always positive.  I think there is a lot of scope to engineer the system further and really think more deeply about the optimal way to design and model this HCI.
 
 **Project Reflections**
 
@@ -253,15 +255,15 @@ _What have you learned or wish you knew at the start of the project?_
 
 _Design_
 
-Biggest takeaway is while I startted with a very positive goal is seeing how people reaced to it positvely adn negatively. It made an impact on me because as a technologist that wants to optimize the work people do and how they live, it is very difficult to udnerstand how your work may impact people beyond your initial functional goals. It is so important to test and iterate even small components and this is a principle I have seen shared across various programs from Design Thinking to Product Studio.
+Biggest takeaway is while I started with a very positive goal, seeing how people reacted to it positvely and a few negatively was interesting. It made an impact on me because as a technologist that wants to optimize the work people do and how they live, it is difficult to understand how your work may impact people beyond your initial functional goals. It is so important to test and iterate even small components, get feedback and this is a principle I have seen shared across various programs from Design Thinking to Product Studio this semester.
 
 _Technical_
 
-I did not realize how much work it woudl take to program the front end. The data model python aspects were actually relatively straightforward. I utilized a Magic Mirror plug in here. Will consider enhacignmy project direction so it is useful wnough to add as a plug in for others but dealing with more front end aspects technically was more involving. I tink in some ways the project seems ambitious but I do think thsi is because i have longterm interest in building it so when I scope it out I am considering building out more "add-ons" past just the Daily Facial Gym.
+I did not realize how much work it would take to program the front end. The data model python aspects were actually relatively straightforward. I utilized a Magic Mirror plug in here. Will consider enhacing my project direction so it is useful enough to add as a plug in for others but dealing with more front end aspects technically was more involving. I think in some ways the project seems ambitious but I do think this is because I have longterm interest in building it so when I scope it out I am considering building out more "add-ons" past just the Daily Facial Gym.
 
 _Overall_
 
-I really wanted to be able to make something that was functionally useful but I could see myself extending overtime with the concepts and tool I learnt over this class. I have really enjoyed the emphasis of design and thinking about the interactions. Its a shift from simply thinkign abotu how the technical componenets can work together to make a product that "works" to undrstanding how implict and explicit behaviour and interactions can change the dynamics of how a system shoudl be designed to optimize the human interactions in teh real world.
+I really wanted to be able to make something that was functionally useful but I could see myself extending overtime with the concepts and tool I learnt over this class. I have really enjoyed the emphasis of design and thinking about the interactions. Its a shift from simply thinking about how the technical components can work together to make a product that "works" to undrstanding how implict and explicit behaviour and interactions can change the dynamics of how a system should be designed to optimize the human interactions in the real world.
 
 
 
