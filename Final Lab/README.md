@@ -44,19 +44,19 @@ Your project is to design and build an interactive device to suit a specific app
 The concept of a Smart Mirror is often used to display information such as weather details or perhaps an agenda of activities for the day. It seems apt that since you visit the mirror more than likely at least at the start of the day, then again perhaps before bedtime it creates the ideal “check in and out” point of reference for the participant. Whilst these displays can be useful for the purposes of maintaining productivity of one’s day, there seems to be greater awareness and a need for mental wellness and introspective moments in a daily routine. This is in line with a general trend towards being more isolated over the last 18 months with more opportunities to reflect or working and living from the same primary base at home.
 
 <p float="left">
-  <img src="mindful_mirror_map.png" width="300" />
+  <img src="mindful_mirror_map.png" width="500" />
 </p>
 
 
 The concept behind Mi-Raw-Me is to create a smart mirror that tries to reflect the self, understand its current state and then try to adjust and remedy with some directional notes/quotes or instructions.  The idea can be seen in many different cultures, religions or even lifestyle modalities such as:
 
-[Daily Horoscope](https://www.msn.com/en-us/lifestyle/horoscope) - being used to offer direction on the participants motivations for the day
+- [Daily Horoscope](https://www.msn.com/en-us/lifestyle/horoscope) - being used to offer direction on the participants motivations for the day
 
-[Stoic Reflections](https://www.instagram.com/stoicreflections/?hl=en) - That cause the mind to be questioned, intrigued and inspired through daily online platforms like instagram
+- [Stoic Reflections](https://www.instagram.com/stoicreflections/?hl=en) - That cause the mind to be questioned, intrigued and inspired through daily online platforms like instagram
 
-Spiritual “[Word of The Day](https://vision.org.au/the-word-for-today/)” Reflections - That offer proverbs and wise messages with a spiritual connection
+- Spiritual “[Word of The Day](https://vision.org.au/the-word-for-today/)” Reflections - That offer proverbs and wise messages with a spiritual connection
 
-[Mindfulness](https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356#:~:text=Mindfulness%20is%20a%20type%20of,mind%20and%20help%20reduce%20stress.) - Apps like [Calm](https://get.calm.com/freetrial?pid=googlesem&af_channel=googlesem&af_c_id=14966608029&af_adset_id=129804321258&af_ad_id=553574999918&af_sub_siteid=&af_keyword=calm%20app&af_sub3=e&af_sub4=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB&af_sub5=xx&utm_medium=paid&utm_source=googlesem&utm_campaign=gsa_b2c_us_web_desktop_brand_app_tcpa_lptest-freetrial&utm_content=/freetrial&utm_term=calm%20app&gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB) for example offer reflections and mindful notes for the day
+- [Mindfulness](https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356#:~:text=Mindfulness%20is%20a%20type%20of,mind%20and%20help%20reduce%20stress.) - Apps like [Calm](https://get.calm.com/freetrial?pid=googlesem&af_channel=googlesem&af_c_id=14966608029&af_adset_id=129804321258&af_ad_id=553574999918&af_sub_siteid=&af_keyword=calm%20app&af_sub3=e&af_sub4=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB&af_sub5=xx&utm_medium=paid&utm_source=googlesem&utm_campaign=gsa_b2c_us_web_desktop_brand_app_tcpa_lptest-freetrial&utm_content=/freetrial&utm_term=calm%20app&gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB) for example offer reflections and mindful notes for the day
 
 
 **The Science Behind It**
@@ -68,7 +68,7 @@ In fact, this leads well into Neuro-Linguistic Programming - [NLP](https://www.n
 You can also extend this concept to the wider family. Research finds that the words a parent speaks or fails not to speak over a child can have a dramatic effect in shaping how the child perceives themselves and also affect their long-term mental health. See findings from [The School of Life](https://www.theschooloflife.com/) and also some research [here](https://files.eric.ed.gov/fulltext/EJ1201955.pdf).  A great extension for this project would be to bring the voice to life with an avatar that mirrors the participants features and the target emotional state we hope to reach. The parental angle can be thought of as a way to address the possibility of emotional neglect as seen here in this short video from The School of Life on parental emotional neglect [here](https://www.youtube.com/watch?v=aJJ7YpW--dQ).
 
 <p float="left">
-  <img src="mindful_mirror_verplank.png" width="300" />
+  <img src="mindful_mirror_verplank.png" width="500" />
 </p>
 
 **What Does It Do?**
@@ -202,13 +202,13 @@ The idea is not to force a smile, though if you are choosing to perform some sor
 **System Design**
 
 <p float="left">
-  <img src="mindful_mirror_sys_arch.png" width="300" />
+  <img src="mindful_mirror_sys_arch.png" width="500" />
 </p>
 
 **System State**
 
 <p float="left">
-  <img src="mindful_mirror_system_state.png" width="300" />
+  <img src="mindful_mirror_system_state.png" width="500" />
 </p>
 
 **UI/UX Components**
