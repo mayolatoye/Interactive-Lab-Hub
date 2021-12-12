@@ -216,7 +216,7 @@ The idea is not to force a smile, though if you are choosing to perform some sor
 _Magic Mirror_
 
 Using the UI and connecting to the Raspeberry Pi allowed front end maximal manipulation and re-design.
-This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf)
+This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf) you can also see teh customm code for this project [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab/mindfulmirror)
 
 _Visualizations_
 
@@ -233,7 +233,7 @@ Here is a sample of some of the visuals once he session was completed by the use
 
 **Code Base**
 
-The code base including the first iteration and final work can be found in this lab.
+The code base including the first iteration and final work can be found in this lab [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab).
 
 **Feedback & Improvements**
 
