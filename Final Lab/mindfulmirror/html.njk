@@ -1,0 +1,38 @@
+
+<div>
+	{% if smile %}
+		<div class="thin large bright">
+			<span>{% if smile.progress == "100" %}
+			Your Results
+			{% else %}
+			Time For Smile Gym
+			{% endif %}
+			</span>
+		</div>
+
+		{% if smile.progress != "100" %}
+		<div class="thin medium bright">
+			<span>{{smile.msg}}</span>
+		</div>
+		<div class="thin small bright">
+			<span>current mood:{{mood}} </span>
+		</div>
+		{% endif %}
+		{% if smile.progress != "100" %}
+		<div class="mindfulimages">
+			<img src="{{smile.img_url}}" />
+			<img src="https://raw.githubusercontent.com/mayolatoye/Interactive-Lab-Hub/Fall2021/Lab%206/images/smile1.png" />
+		</div>
+		{% else %}
+		<div class="completeimages">
+			<img src="{{smile.img_url}}" />
+		</div>
+		{% endif %}
+		{% if smile.progress != "100" %}
+		<div class="w3-border">
+			<div class="w3-grey" style="height:24px;width:{{smile.progress}}%"></div>
+		</div>
+		{% endif %}
+
+	{% endif %}
+</div>
