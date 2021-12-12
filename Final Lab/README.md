@@ -43,13 +43,19 @@ Your project is to design and build an interactive device to suit a specific app
 
 The concept of a Smart Mirror is often used to display information such as weather details or perhaps an agenda of activities for the day. It seems apt that since you visit the mirror more than likely at least at the start of the day, then again perhaps before bedtime it creates the ideal “check in and out” point of reference for the participant. Whilst these displays can be useful for the purposes of maintaining productivity of one’s day, there seems to be greater awareness and a need for mental wellness and introspective moments in a daily routine. This is in line with a general trend towards being more isolated over the last 18 months with more opportunities to reflect or working and living from the same primary base at home.
 
-**insert mindful map image here**
+<p float="left">
+  <img src="mindful_mirror_map.png" width="300" />
+</p>
+
 
 The concept behind Mi-Raw-Me is to create a smart mirror that tries to reflect the self, understand its current state and then try to adjust and remedy with some directional notes/quotes or instructions.  The idea can be seen in many different cultures, religions or even lifestyle modalities such as:
 
 [Daily Horoscope](https://www.msn.com/en-us/lifestyle/horoscope) - being used to offer direction on the participants motivations for the day
+
 [Stoic Reflections](https://www.instagram.com/stoicreflections/?hl=en) - That cause the mind to be questioned, intrigued and inspired through daily online platforms like instagram
+
 Spiritual “[Word of The Day](https://vision.org.au/the-word-for-today/)” Reflections - That offer proverbs and wise messages with a spiritual connection
+
 [Mindfulness](https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356#:~:text=Mindfulness%20is%20a%20type%20of,mind%20and%20help%20reduce%20stress.) - Apps like [Calm](https://get.calm.com/freetrial?pid=googlesem&af_channel=googlesem&af_c_id=14966608029&af_adset_id=129804321258&af_ad_id=553574999918&af_sub_siteid=&af_keyword=calm%20app&af_sub3=e&af_sub4=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB&af_sub5=xx&utm_medium=paid&utm_source=googlesem&utm_campaign=gsa_b2c_us_web_desktop_brand_app_tcpa_lptest-freetrial&utm_content=/freetrial&utm_term=calm%20app&gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZCT5g-xfQe41GPs4-q4XCp1X4YaghZHKKjrGgpdUnWI_EiIorOHeq4aAmrgEALw_wcB) for example offer reflections and mindful notes for the day
 
 
@@ -61,7 +67,9 @@ In fact, this leads well into Neuro-Linguistic Programming - [NLP](https://www.n
 
 You can also extend this concept to the wider family. Research finds that the words a parent speaks or fails not to speak over a child can have a dramatic effect in shaping how the child perceives themselves and also affect their long-term mental health. See findings from [The School of Life](https://www.theschooloflife.com/) and also some research [here](https://files.eric.ed.gov/fulltext/EJ1201955.pdf).  A great extension for this project would be to bring the voice to life with an avatar that mirrors the participants features and the target emotional state we hope to reach. The parental angle can be thought of as a way to address the possibility of emotional neglect as seen here in this short video from The School of Life on parental emotional neglect [here](https://www.youtube.com/watch?v=aJJ7YpW--dQ).
 
-**insert verplank diagram**
+<p float="left">
+  <img src="mindful_mirror_verplank.png" width="300" />
+</p>
 
 **What Does It Do?**
 
@@ -138,23 +146,32 @@ Will create a baseline design that allows the mirror to converse with the partic
 The first design focuses on creating a simple functional check. 
 
 _Initial System Deisgn & Sketch_
+<p float="left">
+  <img src="facial_detection_sketch1.png" width="150" />
+  <img src="facial_detection_sketch2.png" width="150" />
+</p>
+
 
 _Initial Wizarding Prototype_
+
+<p float="left">
+  <img src="Initial_wizard_prototype.png" width="300" />
+</p>
 
 _Initial Video Interaction__
 
 
 Create a model to recognize happy and sad faces using a collection of smiling happy and negative sad faces. I then created a simple dictionary selection once the classification is identified to respond back with such as below:
 
-Participant: Steps to the mirror
+_Participant: Steps to the mirror_
 
-Mirror: (Process face epression)
+_Mirror: (Process face epression)_
 
-Mirror: You appear to be happy today, tell me do you feel happy sad or neutral?
+_Mirror: You appear to be happy today, tell me do you feel happy sad or neutral?_
 
-Participant: I feel happy
+_Participant: I feel happy_
 
-Mirror: You are a bright and cheerful person stay at peace and enjoy your day...namaste!
+_Mirror: You are a bright and cheerful person stay at peace and enjoy your day...namaste!_
 
 While this was simply to achieve a functional check off in terms of having a data model and baseline paper prototype of the interaction, there is a fundamental HCI flaw in this. Based on external feedback, while identifying the correct expression through facial detection may have soem value, espressing your outcome back to the participant can actually work adversely to put them in the wrogn stat of mind. If you allow for model miscalssification on some of these runs the problem becomes even bigger.
 
@@ -165,7 +182,10 @@ So while it has been sueful to get the basic frameworks in place for facial cals
 
 So I took some inspiration from the health benefits of [facial yoga](https://www.townandcountrymag.com/style/beauty-products/a27668382/face-yoga-exercises/) and also a small clincial trial that aims to use these facial excercises to balance mood [here](https://clinicaltrials.gov/ct2/show/NCT03983291).
 
-**facial excercise here**
+
+<p float="left">
+  <img src="facial_excercise.jpeg" width="300" />
+</p>
 
 Professor Ju gave some inspiration around cat memes as a visual that typicaly evokes some reaction (usually poistive) when shown to the average participant. So I went further down this theme to combine the ideas. 
 
@@ -174,11 +194,22 @@ Using memes and jokes that could be visualized, the participant would enter a fa
 The idea is not to force a smile, though if you are choosing to perform some sort of facial excercise with associated health beenfits you amy want to track and understand your performance overtime. There woudl also be need to expand the scope of facial workouts, perhaps guiding the participant in how to stretch e.t.c. over time.
 
 **System Sketch**
-**--mindful mirror sketch--**
+
+<p float="left">
+  <img src="mindful_mirror_sketch.png" width="300" />
+</p>
 
 **System Design**
 
+<p float="left">
+  <img src="mindful_mirror_sys_arch.png" width="300" />
+</p>
+
 **System State**
+
+<p float="left">
+  <img src="mindful_mirror_system_state.png" width="300" />
+</p>
 
 **UI/UX Components**
 
@@ -193,7 +224,10 @@ The memes are some of the "funny" content are created using the wonderful progra
 
 Here is a sample of some of the visuals once he session was completed by the user.
 
-**--examples of canva ui--**
+<p float="left">
+  <img src="images/1.png" width="150" />
+    <img src="images/3.png" width="150" />
+</p>
 
 **Video of Interaction**
 
