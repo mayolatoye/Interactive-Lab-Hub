@@ -1,6 +1,6 @@
 # Final Lab
 
-1. Dataset for facial emotions: http://mohammadmahoor.com/affectnet/
+Dataset for facial emotions: http://mohammadmahoor.com/affectnet/
 
 
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
