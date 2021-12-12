@@ -160,6 +160,7 @@ _Initial Wizarding Prototype_
 
 _Initial Video Interaction__
 
+The inital video of interaction can be seen [here](https://youtu.be/FXm1CmWKlZU)
 
 Create a model to recognize happy and sad faces using a collection of smiling happy and negative sad faces. I then created a simple dictionary selection once the classification is identified to respond back with such as below:
 
@@ -230,6 +231,11 @@ Here is a sample of some of the visuals once he session was completed by the use
 </p>
 
 **Video of Interaction**
+
+_The initial ~30 sec pause is the time it takes to start the system frmm teh command line and then once its up, the camera switches on and thn tries to perform facial detection._
+
+The general video of interaction can be seen [here](https://youtu.be/e1YRaDTXr1Q)
+The closeup video of interaction can be seen [here](https://youtu.be/SXI-HJY2lLs)
 
 **Code Base**
 
