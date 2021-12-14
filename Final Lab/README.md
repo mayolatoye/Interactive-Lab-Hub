@@ -203,11 +203,11 @@ _Magic Mirror_
 
 The Magic Mirror API that allows extension development was very useful in this project. Using the UI and connecting to the Raspeberry Pi allowed front end maximal manipulation and re-design.
 
-This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf) you can also see teh customm code for this project [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab/mindfulmirror)
+This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf) you can also see the customm code for this project [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab/mindfulmirror)
 
 _Visualizations_
 
-The memes are some of the "funny" content are created using the wonderful program [canva](https://www.canva.com/) I was asked about this a lot on demo day.
+The memes and some of the "funny" content are created using the wonderful program [canva](https://www.canva.com/) I was asked about this a lot on demo day.
 
 Here is a sample of some of the visuals once the session was completed by the user.
 
