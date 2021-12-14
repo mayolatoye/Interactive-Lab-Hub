@@ -13,8 +13,6 @@ This is the final lab project for the Interactive Device Design course at Cornel
 
 [Parts Needed](#parts-needed)
 
-[Parts Needed](#parts-needed)
-
 [Risks And Contingencies](#risks-and-contingencies)
 
 [Final Deliverable](#final-deliverable)
