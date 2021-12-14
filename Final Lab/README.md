@@ -1,38 +1,31 @@
 # Final Lab
 
-Dataset for facial emotions: http://mohammadmahoor.com/affectnet/
+
+# MiRawMe
+
+This is the final lab project for the Interactive Device Design course at Cornell Tech. I will use a Raspberry Pi to build a fully functioning and well-designed interactive everyday device for the home. 
+
+[Project Plan](#project-plan)
+
+[Big Idea](#big-idea)
+
+[Parts Needed](#parts-needed)
+
+[Parts Needed](#parts-needed)
+
+[Risks And Contingencies](#risks-and-contingencies)
+
+[Final Deliverable](#final-deliverable)
+
+[Code Base](#code-base)
+
+[User Feedback](#user-feedback)
+
+[Project Reflections](#project-reflections)
 
 
-Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
-Project plan - November 22
 
-Peer feedback on Project plans: November 24
-
-Functional check-off - November 30 & December 2
-
-Final Project Presentations - December 7
-
-Write-up and documentation due - December 13
-
-## Objective
-
-The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
- 
-## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing, and test the interaction with people. 
-## Deliverables
-
-1. Project plan: Big idea, timeline, parts needed, fall-back plan.
-
-2. Functioning project: The finished project should be a device, system, interface, etc. that people can interact with.
-
-3. Documentation of design process
-4. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
-5. Video of someone using your project
-6. Reflections on process (What have you learned or wish you knew at the start?)
-
-7. Group work distribution questionnaire
 
 
 # Project Plan
@@ -115,23 +108,18 @@ Test the interaction. Plan is to make smaller unit tests in the build up to this
 
 More time to refine the product and additional sources of data points for inspiration. This is also time to train on more data as well as refine the physical prototype and have more user-experience interactions as a feedback loop to improve the device.
 
+<p float="left">
+  <img src="idd_timeline.png" width="500" />
+</p>
 
-# Risks & Contingencies
+# Risks And Contingencies
 
 **Key Risks**
 
-Algorithm: Facial recognition emotional algorithm issues e.g. model failure etc
+<p float="left">
+  <img src="idd_risk_chart.png" width="500" />
+</p>
 
-Physical: Inability to wire all physical aspects together in harmony behind a mirror
-
-
-_Risk:_ Algorithm
-
-Mitigation Strategy/Contingency:_ Use a smaller dataset, or altogether skip this aspect and simplify the emotional recognition approach by using a quiz and responses through voice from the quiz
-
-_Risk:_ Physical
-
-_Mitigation Strategy/Contingency:_ Simplify device, use a simpler design like a standalone box with no mirrors required
 
 # Fall-back Plan
 
@@ -147,8 +135,8 @@ The first design focuses on creating a simple functional check.
 
 _Initial System Deisgn & Sketch_
 <p float="left">
-  <img src="facial_detection_sketch1.png" width="150" />
-  <img src="facial_detection_sketch2.png" width="150" />
+  <img src="facial_detection_sketch1.png" width="250" />
+  <img src="facial_detection_sketch2.png" width="250" />
 </p>
 
 
@@ -178,6 +166,7 @@ While this was simply to achieve a functional check-off in terms of having a dat
 
 So while it has been sueful to get the basic frameworks in place for facial calssification, I needed to explore a re-design of aspects of the system with this feedback.
 
+# Final Deliverable
 
 **Final Design Sketch**
 
@@ -203,20 +192,20 @@ The idea is not to force a smile, though if you are choosing to perform some sor
 **System Design**
 
 <p float="left">
-  <img src="mindful_mirror_sys_arch.png" width="500" />
+  <img src="mindful_mirror_sys_arch.png" width="600" />
 </p>
 
 **System State**
 
 <p float="left">
-  <img src="mindful_mirror_system_state.png" width="500" />
+  <img src="mindful_mirror_system_state.png" width="600" />
 </p>
 
 **UI/UX Components**
 
 _Magic Mirror_
 
-Using the UI and connecting to the Raspeberry Pi allowed front end maximal manipulation and re-design.
+The Magic Mirror API that allows extension development was very useful in this project. Using the UI and connecting to the Raspeberry Pi allowed front end maximal manipulation and re-design.
 
 This tutorial is a useful guide to [follow](https://medium.com/@lihz01051/my-experience-of-building-a-smart-mirror-5ebd6ab512bf) you can also see teh customm code for this project [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab/mindfulmirror)
 
@@ -235,13 +224,26 @@ Here is a sample of some of the visuals once the session was completed by the us
 
 _The initial ~30 sec pause is the time it takes to start the system frmm the command line and then once its up, the camera switches on and thn tries to perform facial detection._
 
-The general video of interaction can be seen [here](https://youtu.be/e1YRaDTXr1Q)
+The general video of interaction can be seen here:
 
-The closeup video of interaction can be seen [here](https://youtu.be/SXI-HJY2lLs)
+***
+[![MiRawMe](mi_raw_me_logo.png)](https://youtu.be/e1YRaDTXr1Q)
 
-**Code Base**
+
+
+The closeup video of interaction can be seen here:
+
+***
+[![MiRawMe](mi_raw_me_logo.png)](https://youtu.be/SXI-HJY2lLs)
+***
+
+# Code Base
+
+**Development**
 
 The code base including the first iteration and final work can be found in this lab [here](https://github.com/mayolatoye/Interactive-Lab-Hub/tree/Fall2021/Final%20Lab).
+
+# User Feedback
 
 **Feedback & Improvements**
 
@@ -249,21 +251,24 @@ Generally I had a lot of interest and good feedback. I liked some people tried t
 
 I did receive some feedback that forcing a participant to smile was somewhat dystopian (non class member). To this I think context is missing. The participant that would use this would believe in some sort of health or mental benefit in NLP to some degree. Secondly I think there are two aspects to this that are being fussed, excersise for general (more physical) health and excercise for mental boost. The system in effect does not need you to smile if a meme is not funny, it can try to learn overtime the genre of memes you find funniest so you are not being forced to pull your muscles positviely. Also, there is the physical health componenet aspects to it that generally participants like to be able to measure and enjoy some sort of gamifiation around. Shoudl this be supported? I actually found some people begin to see this as more of a competition as the quote they got was related to how well the session went however it was always positive.  I think there is a lot of scope to engineer the system further and really think more deeply about the optimal way to design and model this HCI.
 
-**Project Reflections**
+# Project Reflections
 
 _What have you learned or wish you knew at the start of the project?_
 
 _Design_
 
-Biggest takeaway is while I started with a very positive goal, seeing how people reacted to it positvely and a few negatively was interesting. It made an impact on me because as a technologist that wants to optimize the work people do and how they live, it is difficult to understand how your work may impact people beyond your initial functional goals. It is so important to test and iterate even small components, get feedback and this is a principle I have seen shared across various programs from Design Thinking to Product Studio this semester.
+Biggest takeaway is while I started with a very positive goal, seeing how people reacted to it positvely and a few negatively was interesting. It made an impact on me because as a technologist that wants to optimize the work people do and how they live positively, it is difficult to understand how your work may impact people beyond your initial functional goals.  I also think there is a significant cultural nuance to building tech that as a designer, you need to consider and involve at the centre of your interaction considerations. What are the implict and explicit expectations given context and cultural norms for a certain audience for example? It is so important to test and iterate even small components of the work as you build, get feedback e.t.c. This is a principle I have seen shared across various programs from an elective I took in Design Thinking to even Product Studio this semester.
 
 _Technical_
 
-I did not realize how much work it would take to program the front end. The data model python aspects were actually relatively straightforward. I utilized a Magic Mirror plug in here. Will consider enhacing my project direction so it is useful enough to add as a plug in for others but dealing with more front end aspects technically was more involving. I think in some ways the project seems ambitious but I do think this is because I have longterm interest in building it so when I scope it out I am considering building out more "add-ons" past just the Daily Facial Gym.
+I did not realize how much work it would take to program the front end. The data model python aspects were actually relatively straightforward. As mentioed earlier, I utilized a Magic Mirror API that allow syou to build furhter plugins. Will consider enhacing my project direction so it is useful enough to add as a plug in for others but dealing with more front end aspects technically was more involving. I think in some ways the project seems ambitious but I do think this is because I have longterm interest in building it so when I scope it out I am considering building out more "add-ons" past just the Daily Facial Gym. So th ebenefit is now I have a good handle on how to manipulate the front end havign worked out the main technical glitches.
+
+Given more time, I would have liked to train the model on a much wider range of faces and emotional expressions. I found great sources of datasets such as this [AffectNet](http://mohammadmahoor.com/affectnet/) for facial emotions but the process and time it would take to obtain permission before training would not be conducive to the timeline of the project. 
+
 
 _Overall_
 
-I really wanted to be able to make something that was functionally useful but I could see myself extending overtime with the concepts and tool I learnt over this class. I have really enjoyed the emphasis of design and thinking about the interactions. Its a shift from simply thinking about how the technical components can work together to make a product that "works" to undrstanding how implict and explicit behaviour and interactions can change the dynamics of how a system should be designed to optimize the human interactions in the real world.
+I really wanted to be able to make something that was functionally useful but I could see myself extending overtime with the concepts and tool I learnt over this IDD class. I have really enjoyed the emphasis on design and thinking about the interactions. Its a shift from simply thinking about how the technical components can work together to make a product that "works" to undrstanding how implict and explicit behaviour and interactions can change the dynamics of how a system should be designed to optimize the human interactions in the real world.
 
 
 
